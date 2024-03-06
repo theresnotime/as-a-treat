@@ -33,6 +33,7 @@ FOLX = [
     "Firefish users",
     "Iceshrimp users",
     "Dagns",
+    "The Kat",
     "Polycules",
     "A Mae",
     "FFXIV players",
