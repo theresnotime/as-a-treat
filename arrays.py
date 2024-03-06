@@ -33,6 +33,7 @@ FOLX = [
     "Firefish users",
     "Iceshrimp users",
     "Dagns",
+    "The Kat",
 ]
 
 # The case of these will not be changed
