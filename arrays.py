@@ -51,6 +51,7 @@ FOLX = [
     "Orange cats",
     "Void kitties",
     "Everyone",
+    "Nyanbinary folx",
 ]
 
 # The case of these will not be changed
