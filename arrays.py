@@ -60,4 +60,5 @@ TREATS = [
     "some new cat ears",
     "a LEGO UCS Millennium Falcon 75192",
     "a random.choice(TREATS)",
+    "a new OLED steamdeck",
 ]
