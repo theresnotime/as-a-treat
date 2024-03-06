@@ -33,6 +33,9 @@ FOLX = [
     "Firefish users",
     "Iceshrimp users",
     "Dagns",
+    "Good pets",
+    "Gamers",
+    "Doms"
 ]
 
 # The case of these will not be changed
@@ -73,4 +76,10 @@ TREATS = [
     "an IPv6 in the RFC 4193 block",
     "a **BLÅHAJ**",
     "a malformed BIRD config",
+    "a *click*",
+    "belly rubs",
+    "working code",
+    ":3",
+    "a biiiiig stretch",
+    "a cute frog",
 ]
