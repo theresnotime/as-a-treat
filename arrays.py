@@ -30,6 +30,9 @@ FOLX = [
     "Sharkey users",
     "Glitch-soc users",
     "GoToSocial users",
+    "Firefish users",
+    "Iceshrimp users",
+    "Dagns",
 ]
 
 # The case of these will not be changed
@@ -61,4 +64,13 @@ TREATS = [
     "a LEGO UCS Millennium Falcon 75192",
     "a random.choice(TREATS)",
     "a new OLED steamdeck",
+    "a barely used Nvidia RTX 4090 Ti",
+    "a LEGO UCS Death Star 75159",
+    "a shiny Gardevoir",
+    "an iced latte",
+    "a docker container",
+    "an invalid IPv4 address",
+    "an IPv6 in the RFC 4193 block",
+    "a **BLÅHAJ**",
+    "a malformed BIRD config",
 ]

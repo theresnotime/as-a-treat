@@ -1,0 +1,2 @@
+Mastodon.py==1.8.1
+tox==4.9.0
