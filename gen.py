@@ -11,7 +11,7 @@ def write_status(status: str, dry_run: bool = False) -> None:
     mastodon = Mastodon(access_token=config.ACCESS_TOKEN, api_base_url=config.API_URL)
     if dry_run is False:
         # Post
-        mastodon.status_post(status=status, visibility="private")
+        mastodon.status_post(status=status, visibility="unlisted")
         print(f"Posted {status}")
     else:
         print(f"Dry run, would have posted {status}")
