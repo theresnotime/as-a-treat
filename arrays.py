@@ -24,6 +24,12 @@ FOLX = [
     "Yassie",
     "Yasseenists",
     "Folx that use they/them",
+    "Open source maintainers",
+    "Mastodon users",
+    "Akkoma users",
+    "Sharkey users",
+    "Glitch-soc users",
+    "GoToSocial users",
 ]
 
 # The case of these will not be changed
