@@ -149,4 +149,5 @@ TREATS = [
     "a cute little collar",
     "a subpost",
     "a little nap",
+    "trailing commas",
 ]
