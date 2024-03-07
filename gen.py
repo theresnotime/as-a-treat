@@ -1,8 +1,7 @@
+import argparse
 import config
-import getopt
 import os
 import random
-import sys
 from arrays import FOLX, TREATS
 from mastodon import Mastodon
 
@@ -40,11 +39,16 @@ def save_last(thing: str, value: str) -> None:
 
 
 if __name__ == "__main__":
-    dry_run = False
-    opts, args = getopt.getopt(sys.argv[1:], shortopts="d", longopts="dry-run")
-    for opt, arg in opts:
-        if opt in ("-d", "--dry-run"):
-            dry_run = True
+    parser = argparse.ArgumentParser(
+        description='Generate a string in the format "{folx} can have {treats}, as a treat" and post it to fedi'
+    )
+    parser.add_argument(
+        "-d",
+        "--dry-run",
+        action="store_true",
+        help="Generate output, but do not post it",
+    )
+    args = parser.parse_args()
 
     # Get last folx and treat choices
     last_folx = get_last("folx")
@@ -65,4 +69,4 @@ if __name__ == "__main__":
     treat_or_threat = "threat" if should_be_threat() else "treat"
 
     status = f"{folx} can have {treat}, as a {treat_or_threat}"
-    write_status(status, dry_run)
+    write_status(status, args.dry_run)
