@@ -143,7 +143,7 @@ TREATS = [
     "small bits of cheese",
     "a furnished kennel",
     "a new 3D printer",
-    "a extra hydrated spoll of PLA",
+    "an extra hydrated spool of PLA",
     "a new 60% mechanical keyboard",
     "a failing wireguard tunnel",
     "broken Path MTU Discovery",
