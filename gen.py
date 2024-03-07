@@ -6,6 +6,9 @@ import sys
 from arrays import FOLX, TREATS
 from mastodon import Mastodon
 
+# The chance for the treat to become a threat
+THREAT_PROBABILITY = 1 / 100
+
 
 def write_status(status: str, dry_run: bool = False) -> None:
     """Write a status to Mastodon"""
@@ -16,6 +19,12 @@ def write_status(status: str, dry_run: bool = False) -> None:
         print(f"Posted {status}")
     else:
         print(f"Dry run, would have posted {status}")
+
+
+def should_be_threat():
+    """Use THREAT_PROBABILITY to determine if this treat should be a threat"""
+    range_max = int(1 / THREAT_PROBABILITY)
+    return random.randint(1, range_max) == range_max
 
 
 def get_last(thing: str):
@@ -53,5 +62,7 @@ if __name__ == "__main__":
     save_last("folx", folx)
     save_last("treat", treat)
 
-    status = f"{folx} can have {treat}, as a treat"
+    treat_or_threat = "threat" if should_be_threat() else "treat"
+
+    status = f"{folx} can have {treat}, as a {treat_or_threat}"
     write_status(status, dry_run)
