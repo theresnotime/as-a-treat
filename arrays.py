@@ -62,6 +62,7 @@ FOLX = [
     "Void kitties",
     "Everyone",
     "Nyanbinary folx",
+    "Friend-shaped creatures",
 ]
 
 # The case of these will not be changed
@@ -118,7 +119,7 @@ TREATS = [
     "some cool moss",
     "a redundant backup",
     "a fluffy tail",
-    "a little boop",
+    "a snoot boop",
     "a creative mode Minecraft server",
     "a hit of dopamine",
     "root access",
@@ -168,4 +169,10 @@ TREATS = [
     "a subpost",
     "a little nap",
     "trailing commas",
+    "paw beans",
+    "brushy brushy",
+    "walkies",
+    "ear scritches",
+    "a bowl of kibble",
+    "a game of fetch",
 ]
