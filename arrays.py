@@ -198,4 +198,5 @@ TREATS = [
     "a pipe bomb",
     "warm sheets fresh out of the dryer",
     "a cookie",
+    "a bag of Percy Pigs",
 ]
