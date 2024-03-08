@@ -13,6 +13,7 @@ FOLX = [
     "A bee",
     "Wikipedians",
     "Mathematicians",
+    "CS undergrads",
     "Rust developers",
     "Javascript developers",
     "Python developers",
@@ -63,6 +64,7 @@ FOLX = [
     "Everyone",
     "Nyanbinary folx",
     "Friend-shaped creatures",
+    "Neurospicy people",
 ]
 
 # The case of these will not be changed
@@ -82,6 +84,7 @@ TREATS = [
     "an undefined variable",
     "a new spinny skirt",
     "a new set of thigh highs",
+    "a new checked shirt",
     "new pronouns",
     "a cheemsborgar",
     "a copy of Celeste",
@@ -175,4 +178,9 @@ TREATS = [
     "ear scritches",
     "a bowl of kibble",
     "a game of fetch",
+    "an hour-long video about a fridge",
+    "an infodump",
+    "a parallel play session",
+    "a new stim toy",
+    "some peace and quiet",
 ]
