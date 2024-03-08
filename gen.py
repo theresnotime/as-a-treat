@@ -10,7 +10,7 @@ from mastodon import Mastodon
 THREAT_PROBABILITY = 1 / 100
 
 
-def count_combinations():
+def count_combinations() -> None:
     """Calculate the number of possible outputs"""
     num_folx = len(FOLX)
     num_treats = len(TREATS)
