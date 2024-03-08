@@ -34,6 +34,8 @@ FOLX = [
     "Gentoo users",
     "Nix users",
     "Debian users",
+    "Windows users",
+    "Mac users",
     "You",
     "Fedibots",
     "Robotgirls",
