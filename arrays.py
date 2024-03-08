@@ -196,4 +196,6 @@ TREATS = [
     "a new stim toy",
     "some peace and quiet",
     "a pipe bomb",
+    "warm sheets fresh out of the dryer",
+    "a cookie",
 ]
