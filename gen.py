@@ -2,11 +2,22 @@ import argparse
 import config
 import os
 import random
+import sys
 from arrays import FOLX, TREATS
 from mastodon import Mastodon
 
 # The chance for the treat to become a threat
 THREAT_PROBABILITY = 1 / 100
+
+
+def count_combinations() -> None:
+    """Calculate the number of possible outputs"""
+    num_folx = len(FOLX)
+    num_treats = len(TREATS)
+    combinations = num_folx * num_treats
+    print(
+        f"There are {num_folx} folx and {num_treats} treats, resulting in {combinations} possible combinations."
+    )
 
 
 def write_status(status: str, dry_run: bool = False) -> None:
@@ -48,7 +59,17 @@ if __name__ == "__main__":
         action="store_true",
         help="Generate output, but do not post it",
     )
+    parser.add_argument(
+        "-c",
+        "--count",
+        action="store_true",
+        help="Count the number of possible outputs and exit",
+    )
     args = parser.parse_args()
+
+    if args.count:
+        count_combinations()
+        sys.exit(0)
 
     # Get last folx and treat choices
     last_folx = get_last("folx")
