@@ -100,7 +100,7 @@ TREATS = [
     "new pronouns",
     "a cheemsborgar",
     "a copy of Celeste",
-    "play of the game",
+    "Play of the Game",
     "a cheeky Nandos",
     "a cuddle of the Yassie plushie",
     "a fediblock",
