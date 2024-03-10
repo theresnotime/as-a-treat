@@ -193,4 +193,5 @@ TREATS = [
     "a parallel play session",
     "a new stim toy",
     "some peace and quiet",
+    "a pipe bomb",
 ]
