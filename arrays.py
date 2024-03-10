@@ -74,6 +74,7 @@ FOLX = [
     "Nyanbinary folx",
     "Friend-shaped creatures",
     "Neurospicy people",
+    "A Sammy",
 ]
 
 # The case of these will not be changed
