@@ -211,4 +211,5 @@ TREATS = [
     "a Y2K bug",
     "a Year 2038 bug",
     "an integer overflow",
+    "a keysmash",
 ]
