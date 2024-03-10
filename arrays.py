@@ -77,6 +77,7 @@ FOLX = [
     "Friend-shaped creatures",
     "Neurospicy people",
     "A Sammy",
+    "Xenia",
 ]
 
 # The case of these will not be changed
@@ -200,4 +201,14 @@ TREATS = [
     "a cookie",
     "a bag of Percy Pigs",
     "a long lie-in",
+    "documentation stored in a discord server",
+    "SSO",
+    "an LDAP server",
+    "a lightly-chewed CAT6a cable",
+    "a combined DisplayPort/HDMI port",
+    "yet another micro-USB cable",
+    "a proprietary charging port",
+    "a Y2K bug",
+    "a Year 2038 bug",
+    "an integer overflow",
 ]
