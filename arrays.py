@@ -78,6 +78,11 @@ FOLX = [
     "Neurospicy people",
     "A Sammy",
     "Xenia",
+    "Livvy",
+    "Lily",
+    "Luna",
+    "Julia",
+    "Mae",
 ]
 
 # The case of these will not be changed
