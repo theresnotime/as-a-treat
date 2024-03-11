@@ -83,7 +83,9 @@ FOLX = [
     "Luna",
     "Julia",
     "Maeow",
-    "transfem.social user",
+    "transfem.social users",
+    "Lexi",
+    "catgirl-engine users",
 ]
 
 # The case of these will not be changed
