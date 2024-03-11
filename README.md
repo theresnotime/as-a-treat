@@ -40,5 +40,5 @@ tox -e fix
 ```
 
 ### Gotchas
-- `run.py` will fail if `config.py` isn't present — you can just copy `config.example.py` to `config.py` while testing.
+- `gen.py` will fail if `config.py` isn't present — you can just copy `config.example.py` to `config.py` while testing. Note that the example config doesn't contain the necessary credentials to actually make a post.
 - I <3 trailing commas, and `tox` will get very upset if you forget this :3 
