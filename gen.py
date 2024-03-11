@@ -13,12 +13,13 @@ THREAT_PROBABILITY = 1 / 100
 
 class Visibility(Enum):
     """The possible visibilities for a post according to the mastodon client"""
+
     private = "private"
     direct = "direct"
     unlisted = "unlisted"
     public = "public"
 
-    def __str__(self: 'Visibility') -> str:
+    def __str__(self: "Visibility") -> str:
         return self.value
 
 
@@ -32,7 +33,9 @@ def count_combinations() -> None:
     )
 
 
-def write_status(status: str, dry_run: bool = False, visibility: Visibility = Visibility("unlisted")) -> None:
+def write_status(
+    status: str, dry_run: bool = False, visibility: Visibility = Visibility("unlisted")
+) -> None:
     """Write a status to Mastodon"""
     mastodon = Mastodon(access_token=config.ACCESS_TOKEN, api_base_url=config.API_URL)
     if dry_run is False:
