@@ -4,10 +4,22 @@ import os
 import random
 import sys
 from arrays import FOLX, TREATS
+from enum import Enum
 from mastodon import Mastodon
 
 # The chance for the treat to become a threat
 THREAT_PROBABILITY = 1 / 100
+
+
+class Visibility(Enum):
+    """The possible visibilities for a post according to the mastodon client"""
+    private = "private"
+    direct = "direct"
+    unlisted = "unlisted"
+    public = "public"
+
+    def __str__(self: 'Visibility') -> str:
+        return self.value
 
 
 def count_combinations() -> None:
@@ -20,12 +32,12 @@ def count_combinations() -> None:
     )
 
 
-def write_status(status: str, dry_run: bool = False) -> None:
+def write_status(status: str, dry_run: bool = False, visibility: Visibility = Visibility("unlisted")) -> None:
     """Write a status to Mastodon"""
     mastodon = Mastodon(access_token=config.ACCESS_TOKEN, api_base_url=config.API_URL)
     if dry_run is False:
         # Post
-        mastodon.status_post(status=status, visibility="unlisted")
+        mastodon.status_post(status=status, visibility=visibility)
         print(f"Posted {status}")
     else:
         print(f"Dry run, would have posted {status}")
@@ -65,6 +77,13 @@ if __name__ == "__main__":
         action="store_true",
         help="Count the number of possible outputs and exit",
     )
+    parser.add_argument(
+        "--visibility",
+        type=Visibility,
+        choices=list(Visibility),
+        action="store",
+        default="unlisted",
+    )
     args = parser.parse_args()
 
     if args.count:
@@ -90,4 +109,4 @@ if __name__ == "__main__":
     treat_or_threat = "threat" if should_be_threat() else "treat"
 
     status = f"{folx} can have {treat}, as a {treat_or_threat}"
-    write_status(status, args.dry_run)
+    write_status(status, args.dry_run, args.visibility)
