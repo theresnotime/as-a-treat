@@ -82,7 +82,7 @@ FOLX = [
     "Lily",
     "Luna",
     "Julia",
-    "Mae",
+    "Maeow",
 ]
 
 # The case of these will not be changed
