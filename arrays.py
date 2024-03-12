@@ -89,6 +89,7 @@ FOLX = [
     "Cute dorks",
     "The BOFH",
     "Wikimedians",
+    "Tim Sweeney",
 ]
 
 # The case of these will not be changed
@@ -240,4 +241,5 @@ TREATS = [
     "a Get Out of Jail Free card",
     "a bottle of sparkly nail polish",
     "the last slice of pizza",
+    "Tim Sweeney",
 ]
