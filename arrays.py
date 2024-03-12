@@ -86,7 +86,7 @@ FOLX = [
     "transfem.social users",
     "Lexi",
     "catgirl-engine users",
-    "cute dorks",
+    "Cute dorks",
     "The BOFH",
     "Wikimedians",
 ]
@@ -230,4 +230,14 @@ TREATS = [
     "the British Rail Advanced Passenger Train",
     "a smooth, quiet, and altogether delightful experience",
     "railway electrification",
+    "a Grafana dashboard",
+    "a memory leak",
+    "a kernel panic",
+    "a sequence from the OEIS",
+    "a cuddle with a plushie",
+    "a visit from a TV Licensing Enforcement Officer",
+    "a nice relaxing bath",
+    "a Get Out of Jail Free card",
+    "a bottle of sparkly nail polish",
+    "the last slice of pizza",
 ]
