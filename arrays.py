@@ -86,6 +86,9 @@ FOLX = [
     "transfem.social users",
     "Lexi",
     "catgirl-engine users",
+    "cute dorks",
+    "The BOFH",
+    "Wikimedians",
 ]
 
 # The case of these will not be changed
@@ -220,4 +223,11 @@ TREATS = [
     "a Year 2038 bug",
     "an integer overflow",
     "a keysmash",
+    "free downloadable RAM",
+    "a random excuse from the BOFH's excuse generator",
+    "fully automated luxury gay space communism",
+    "a barnstar",
+    "the British Rail Advanced Passenger Train",
+    "a smooth, quiet, and altogether delightful experience",
+    "railway electrification",
 ]
