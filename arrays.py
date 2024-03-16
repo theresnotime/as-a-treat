@@ -243,4 +243,11 @@ TREATS = [
     "the last slice of pizza",
     "Tim Sweeney",
     "a reminder that this bot [accepts contributions](https://github.com/theresnotime/as-a-treat)",
+    "a successful EU261 claim",
+    "an unoccupied middle seat",
+    "a Code-Review +2 vote",
+    "a PGP key signature",
+    "a peering request",
+    "a disk failure",
+    "a last-minute aircraft swap",
 ]
