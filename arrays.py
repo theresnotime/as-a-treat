@@ -242,5 +242,5 @@ TREATS = [
     "a bottle of sparkly nail polish",
     "the last slice of pizza",
     "Tim Sweeney",
-    "a reminder that this bot [accepts contributions] (https://github.com/theresnotime/as-a-treat)",
+    "a reminder that this bot [accepts contributions](https://github.com/theresnotime/as-a-treat)",
 ]
