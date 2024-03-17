@@ -29,7 +29,7 @@ def count_combinations() -> None:
     num_treats = len(TREATS)
     combinations = num_folx * num_treats
     print(
-        f"There are {num_folx} folx and {num_treats} treats, resulting in {combinations} possible combinations."
+        f"There are {num_folx} folx and {num_treats} treats, resulting in {combinations:,} possible combinations."
     )
 
 

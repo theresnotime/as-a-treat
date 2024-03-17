@@ -3,6 +3,9 @@
 ## What is?
 It's a silly fedi bot (currently at https://fox.nexus/@treats).
 
+### Possible combinations
+There are 88 folx and 156 treats, resulting in 13,728 possible combinations.
+
 ## Contributing
 ### Setting up
 ```bash
