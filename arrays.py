@@ -250,4 +250,5 @@ TREATS = [
     "a peering request",
     "a disk failure",
     "a last-minute aircraft swap",
+    "a working GitHub action",
 ]
