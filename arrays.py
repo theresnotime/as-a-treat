@@ -270,4 +270,6 @@ TREATS = [
     "several tshunks",
     "a hallucinating Large Language Model",
     "an unexpected delay repayment",
+    "a weighted blanket",
+    "a fully operational hoverport",
 ]
