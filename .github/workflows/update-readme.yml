@@ -4,10 +4,7 @@ permissions:
   contents: write # Permission to create commits
   checks: write # Permission to trigger checks
 
-on:
-  pull_request:
-    paths:
-      - 'arrays.py'
+on: workflow_dispatch
 
 jobs:
   update-readme:
