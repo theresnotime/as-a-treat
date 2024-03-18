@@ -1,7 +1,8 @@
 name: 'Update readme count'
 
 permissions:
-  contents: write
+  contents: write # Permission to create commits
+  checks: write # Permission to trigger checks
 
 on:
   pull_request:
