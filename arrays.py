@@ -90,6 +90,14 @@ FOLX = [
     "The BOFH",
     "Wikimedians",
     "Tim Sweeney",
+    "Pastafarians",
+    "Discordians",
+    "Neurotypicals",
+    "Vim users",
+    "Emacs users",
+    "Nano users",
+    "Large Language Models",
+    "Lost robots",
 ]
 
 # The case of these will not be changed
@@ -250,4 +258,16 @@ TREATS = [
     "a peering request",
     "a disk failure",
     "a last-minute aircraft swap",
+    "a geodesic dome",
+    "an all-nighter",
+    "an unterminated regular expression literal",
+    "an expired SSL certificate",
+    "a solarpunk utopia",
+    "a giant mechanical spider",
+    "a lost robot",
+    "an inflatable tentacle",
+    "a hacky racer",
+    "several tshunks",
+    "a hallucinating Large Language Model",
+    "an unexpected delay repayment",
 ]
