@@ -272,4 +272,5 @@ TREATS = [
     "an unexpected delay repayment",
     "a weighted blanket",
     "a fully operational hoverport",
+    "a juicy strawblbery",
 ]
