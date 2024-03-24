@@ -273,4 +273,6 @@ TREATS = [
     "a weighted blanket",
     "a fully operational hoverport",
     "a juicy strawblbery",
+    "a blatantly gerrymandered district",
+    "a QSL request",
 ]
