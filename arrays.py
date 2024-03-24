@@ -83,6 +83,7 @@ FOLX = [
     "Luna",
     "Julia",
     "Maeow",
+    "Kris",
     "transfem.social users",
     "Lexi",
     "catgirl-engine users",
