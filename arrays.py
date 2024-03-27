@@ -99,6 +99,8 @@ FOLX = [
     "Nano users",
     "Large Language Models",
     "Lost robots",
+    "Scientists",
+    "Subscribers",
 ]
 
 # The case of these will not be changed
@@ -276,4 +278,7 @@ TREATS = [
     "a juicy strawblbery",
     "a blatantly gerrymandered district",
     "a QSL request",
+    "Jupyter Notebooks",
+    "a Fortran code from 1976",
+    "as-a-treat as a Service (aaaS)",
 ]
