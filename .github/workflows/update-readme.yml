@@ -3,6 +3,7 @@ name: 'Update readme count'
 permissions:
   contents: write # Permission to create commits
   checks: write # Permission to trigger checks
+  pull-requests: write
 
 on: workflow_dispatch
 
