@@ -44,6 +44,8 @@ FOLX = [
     "meow.woem.cat users",
     "woem-ers",
     "labyrinth.zone users",
+    "fox.nexus users",
+    "honeycomb.engineer users",
     "Yassie",
     "Yasseenists",
     "Folx that use they/them",
