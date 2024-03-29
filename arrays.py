@@ -103,6 +103,8 @@ FOLX = [
     "Lost robots",
     "Scientists",
     "Subscribers",
+    "Software supply chains",
+    "Infosec mavens"
 ]
 
 # The case of these will not be changed
@@ -289,4 +291,6 @@ TREATS = [
     "a write-protected 3½-inch floppy",
     "a suspicious USB drive",
     "a demagnetised cassette tape",
+    "a spicy GitHub tarball",
+    "an sshd backdoor"
 ]
