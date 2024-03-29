@@ -283,4 +283,10 @@ TREATS = [
     "Jupyter Notebooks",
     "a Fortran code from 1976",
     "as-a-treat as a Service (aaaS)",
+    "an Oxford comma",
+    "a worn out VHS tape",
+    "a slightly scratched laserdisc",
+    "a write-protected 3½-inch floppy",
+    "a suspicious USB drive",
+    "a demagnetised cassette tape",
 ]
