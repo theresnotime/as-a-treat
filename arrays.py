@@ -295,5 +295,5 @@ TREATS = [
     "an sshd backdoor",
     "a new neo* emoji pack",
     "a timezone change",
-    "a Potion of Invisibility"
+    "a Potion of Invisibility",
 ]
