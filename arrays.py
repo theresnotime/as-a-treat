@@ -293,4 +293,7 @@ TREATS = [
     "a demagnetised cassette tape",
     "a spicy GitHub tarball",
     "an sshd backdoor",
+    "a new neo* emoji pack",
+    "a timezone change",
+    "a Potion of Invisibility",
 ]
