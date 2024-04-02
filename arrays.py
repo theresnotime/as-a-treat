@@ -296,4 +296,5 @@ TREATS = [
     "a new neo* emoji pack",
     "a timezone change",
     "a Potion of Invisibility",
+    "Universal Basic Income",
 ]
