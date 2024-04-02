@@ -52,16 +52,21 @@ def should_be_threat():
     return random.randint(1, range_max) == range_max
 
 
+def get_used_filename(thing: str) -> str:
+    """Get the filename for the file containing used _things_"""
+    return f"used_{thing}"
+
+
 def save_used(thing: str, value: str) -> None:
     """Add an entry to the used _things_ list"""
-    filename = f"used_{thing}"
+    filename = get_used_filename(thing)
     with open(filename, "a") as f:
         f.write(value + "\n")
 
 
 def get_used(thing: str) -> list[str]:
     """Get the list of used _things_"""
-    filename = f"used_{thing}"
+    filename = get_used_filename(thing)
     if os.path.isfile(filename):
         with open(filename, "r") as f:
             return f.readlines()
@@ -71,7 +76,7 @@ def get_used(thing: str) -> list[str]:
 
 def clear_used(thing: str) -> None:
     """Clear the list of used _things_"""
-    filename = f"used_{thing}"
+    filename = get_used_filename(thing)
     with open(filename, "w") as f:
         f.write("")
 
