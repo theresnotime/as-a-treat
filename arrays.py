@@ -44,6 +44,8 @@ FOLX = [
     "meow.woem.cat users",
     "woem-ers",
     "labyrinth.zone users",
+    "fox.nexus users",
+    "honeycomb.engineer users",
     "Yassie",
     "Yasseenists",
     "Folx that use they/them",
@@ -101,6 +103,8 @@ FOLX = [
     "Lost robots",
     "Scientists",
     "Subscribers",
+    "Software supply chains",
+    "Infosec mavens",
 ]
 
 # The case of these will not be changed
@@ -281,4 +285,16 @@ TREATS = [
     "Jupyter Notebooks",
     "a Fortran code from 1976",
     "as-a-treat as a Service (aaaS)",
+    "an Oxford comma",
+    "a worn out VHS tape",
+    "a slightly scratched laserdisc",
+    "a write-protected 3½-inch floppy",
+    "a suspicious USB drive",
+    "a demagnetised cassette tape",
+    "a spicy GitHub tarball",
+    "an sshd backdoor",
+    "a new neo* emoji pack",
+    "a timezone change",
+    "a Potion of Invisibility",
+    "Universal Basic Income",
 ]
