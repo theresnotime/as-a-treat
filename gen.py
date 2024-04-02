@@ -52,16 +52,28 @@ def should_be_threat():
     return random.randint(1, range_max) == range_max
 
 
-def get_last(thing: str):
-    if os.path.isfile(f"last_{thing}"):
-        return open(f"last_{thing}", "r").readline()
+def save_used(thing: str, value: str) -> None:
+    """Add an entry to the used _things_ list"""
+    filename = f"used_{thing}"
+    with open(filename, "a") as f:
+        f.write(value + "\n")
+
+
+def get_used(thing: str) -> list[str]:
+    """Get the list of used _things_"""
+    filename = f"used_{thing}"
+    if os.path.isfile(filename):
+        with open(filename, "r") as f:
+            return f.readlines()
     else:
-        return None
+        return []
 
 
-def save_last(thing: str, value: str) -> None:
-    with open(f"last_{thing}", "w") as f:
-        f.write(value)
+def clear_used(thing: str) -> None:
+    """Clear the list of used _things_"""
+    filename = f"used_{thing}"
+    with open(filename, "w") as f:
+        f.write('')
 
 
 if __name__ == "__main__":
@@ -93,21 +105,28 @@ if __name__ == "__main__":
         count_combinations()
         sys.exit(0)
 
-    # Get last folx and treat choices
-    last_folx = get_last("folx")
-    last_treat = get_last("treat")
+    used_folx = get_used("folx")
+    used_treats = get_used("treats")
 
-    # Choose a random folx and treat, removing the last choices
-    if last_folx:
-        FOLX.remove(last_folx)
-    if last_treat:
-        TREATS.remove(last_treat)
-    folx = random.choice(FOLX)
-    treat = random.choice(TREATS)
+    # Remove previously used folx
+    available_folx = [item for item in FOLX if item not in used_folx]
+    if len(available_folx) == 0:
+        available_folx = FOLX
+        clear_used("folx")
 
-    # Save the last folx and treat choices
-    save_last("folx", folx)
-    save_last("treat", treat)
+    # Remove previously used treats
+    available_treats = [item for item in TREATS if item not in used_treats]
+    if len(available_treats) == 0:
+        available_treats = TREATS
+        clear_used("treats")
+
+    # Choose a random folx and treat from the remaining available options
+    folx = random.choice(available_folx)
+    treat = random.choice(available_treats)
+
+    # Save the chosen folx and treat so they can't be picked again
+    save_used("folx", folx)
+    save_used("treats", treat)
 
     treat_or_threat = "threat" if should_be_threat() else "treat"
 
