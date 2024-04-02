@@ -73,7 +73,7 @@ def clear_used(thing: str) -> None:
     """Clear the list of used _things_"""
     filename = f"used_{thing}"
     with open(filename, "w") as f:
-        f.write('')
+        f.write("")
 
 
 if __name__ == "__main__":
