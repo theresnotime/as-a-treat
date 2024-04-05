@@ -105,6 +105,9 @@ FOLX = [
     "Subscribers",
     "Software supply chains",
     "Infosec mavens",
+    "Robos",
+    "Drones",
+    "We",
 ]
 
 # The case of these will not be changed
