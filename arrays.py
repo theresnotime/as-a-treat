@@ -300,4 +300,5 @@ TREATS = [
     "a timezone change",
     "a Potion of Invisibility",
     "Universal Basic Income",
+    "an awawawawa",
 ]
