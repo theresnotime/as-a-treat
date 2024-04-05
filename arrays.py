@@ -301,4 +301,5 @@ TREATS = [
     "a Potion of Invisibility",
     "Universal Basic Income",
     "an awawawawa",
+    "the GitHub consequences",
 ]
