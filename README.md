@@ -4,7 +4,7 @@
 It's a silly fedi bot (currently at https://fox.nexus/@treats).
 
 ### Possible combinations
-There are 103 folx and 188 treats, resulting in 19,364 possible combinations.
+There are 106 folx and 189 treats, resulting in 20,034 possible combinations.
 
 ## Contributing
 ### Setting up
