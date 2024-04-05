@@ -1,8 +1,6 @@
 name: tox
 
 on:
-  repository_dispatch:
-    types: [automated-pr]
   push:
   pull_request:
     branches: [ "main" ]
