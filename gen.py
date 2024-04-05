@@ -69,7 +69,7 @@ def get_used(thing: str) -> list[str]:
     filename = get_used_filename(thing)
     if os.path.isfile(filename):
         with open(filename, "r") as f:
-            return f.readlines()
+            return f.read().splitlines()
     else:
         return []
 
