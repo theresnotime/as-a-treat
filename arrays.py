@@ -105,7 +105,6 @@ FOLX = [
     "Subscribers",
     "Software supply chains",
     "Infosec mavens",
-    "Everyone",
     "Robos",
     "Drones",
     "We",
