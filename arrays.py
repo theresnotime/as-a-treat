@@ -312,4 +312,8 @@ TREATS = [
     "frozen yogurt",
     "a light mode theme",
     "a genuine compliment",
+    "a free upgrade to premium economy",
+    "a ride in the front seat of the DLR",
+    "the window seat",
+    "an empty table seat on the train",
 ]
