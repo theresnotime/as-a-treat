@@ -318,6 +318,6 @@ TREATS = [
     "a ride in the front seat of the DLR",
     "the window seat",
     "an empty table seat on the train",
-    "melted frozen yoghurt"
-    "a meowing backpack"
+    "melted frozen yoghurt",
+    "a meowing backpack",
 ]
