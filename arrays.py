@@ -110,6 +110,7 @@ FOLX = [
     "We",
     "Omegas",
     "Alphas",
+    "Queer people",
 ]
 
 # The case of these will not be changed
