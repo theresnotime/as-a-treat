@@ -111,6 +111,10 @@ FOLX = [
     "Omegas",
     "Alphas",
     "Queer people",
+    "Debian Maintainers",
+    "Debian Developers",
+    "Debian Developers, uploading",
+    "Debian Developers, non-uploading",
 ]
 
 # The case of these will not be changed
@@ -321,4 +325,15 @@ TREATS = [
     "an empty table seat on the train",
     "melted frozen yoghurt",
     "a meowing backpack",
+    "a Non-Maintainer Upload",
+    "an FTBFS bug",
+    "a source-only upload",
+    "a stable point release",
+    "a package in NEW",
+    "a new release of the Debian Policy Manual",
+    "a library transition",
+    "a failed autopkgtest",
+    "an inconveniently timed freeze",
+    "a broken reverse dependency",
+    "DM upload rights",
 ]
