@@ -336,4 +336,5 @@ TREATS = [
     "an inconveniently timed freeze",
     "a broken reverse dependency",
     "DM upload rights",
+    "a Hetzner takedown",
 ]
