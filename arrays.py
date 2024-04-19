@@ -337,4 +337,10 @@ TREATS = [
     "a broken reverse dependency",
     "DM upload rights",
     "a Hetzner takedown",
+    "some petty corruption",
+    "a little bribery",
+    "a small kickback",
+    "a minor scandal",
+    "corporate embezzlement",
+    "tax fraud",
 ]
