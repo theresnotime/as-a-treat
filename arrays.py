@@ -145,7 +145,7 @@ TREATS = [
     "a broken migration",
     "some new cat ears",
     "a LEGO UCS Millennium Falcon 75192",
-    "a random.choice(TREATS)",
+    "a `random.choice(TREATS)`",
     "a new OLED steamdeck",
     "a barely used Nvidia RTX 4090 Ti",
     "a LEGO UCS Death Star 75159",
