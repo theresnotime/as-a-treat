@@ -343,4 +343,5 @@ TREATS = [
     "a minor scandal",
     "corporate embezzlement",
     "tax fraud",
+    "LF OS installed on their main computer",
 ]
