@@ -115,6 +115,11 @@ FOLX = [
     "Debian Developers",
     "Debian Developers, uploading",
     "Debian Developers, non-uploading",
+    "Humanoids",
+    "Canids",
+    "Vulpines",
+    "Felines",
+    "Kreechurs",
 ]
 
 # The case of these will not be changed
