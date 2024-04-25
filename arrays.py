@@ -349,4 +349,5 @@ TREATS = [
     "corporate embezzlement",
     "tax fraud",
     "LF OS installed on their main computer",
+    "a vote of support",
 ]
