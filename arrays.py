@@ -346,4 +346,9 @@ TREATS = [
     "tax fraud",
     "LF OS installed on their main computer",
     "a vote of support",
+    "in-cab signalling",
+    "a movement authority",
+    "an eurobalise",
+    "variable gauge rolling stock",
+    "a section of dual-gauge track",
 ]
