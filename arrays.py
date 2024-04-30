@@ -346,4 +346,10 @@ TREATS = [
     "tax fraud",
     "LF OS installed on their main computer",
     "a vote of support",
+    "a rigged random number generator",
+    "a smoking 18650 battery",
+    "a long-running Jenkins job",
+    "a 5-star rating and a big tip",
+    "a slushie with all the flavours mixed together",
+    "some gender euphoria",
 ]
