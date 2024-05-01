@@ -352,4 +352,9 @@ TREATS = [
     "a 5-star rating and a big tip",
     "a slushie with all the flavours mixed together",
     "some gender euphoria",
+    "in-cab signalling",
+    "a movement authority",
+    "an eurobalise",
+    "variable gauge rolling stock",
+    "a section of dual-gauge track",
 ]
