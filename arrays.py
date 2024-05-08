@@ -357,4 +357,11 @@ TREATS = [
     "an eurobalise",
     "variable gauge rolling stock",
     "a section of dual-gauge track",
+    "an oddly-specific hyperactive interest in old, outdated software",
+    "an IBM PC/AT",
+    "a giant pile of dead hardware platforms",
+    "corporate in-fighting",
+    "a full development lifecycle reset",
+    "a Blåhaj-colored computer",
+    "a sentence that is false",
 ]
