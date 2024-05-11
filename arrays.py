@@ -364,4 +364,8 @@ TREATS = [
     "a full development lifecycle reset",
     "a Blåhaj-colored computer",
     "a sentence that is false",
+    "a fully-functional Commodore Amiga 1200",
+    "a disk box",
+    "a golden joystick",
+    "negative zero",
 ]
