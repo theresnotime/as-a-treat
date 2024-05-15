@@ -218,7 +218,7 @@ TREATS = [
     "a 7200 RPM hard drive",
     "a zero-day exploit",
     "a cute little collar",
-    "a subpost",
+    "*this* subpost",
     "a little nap",
     "trailing commas",
     "paw beans",
