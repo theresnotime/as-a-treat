@@ -109,8 +109,6 @@ FOLX = [
     "Queer people",
     "Debian Maintainers",
     "Debian Developers",
-    "Debian Developers, uploading",
-    "Debian Developers, non-uploading",
     "Humanoids",
     "Canids",
     "Vulpines",
