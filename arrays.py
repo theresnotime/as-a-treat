@@ -368,4 +368,5 @@ TREATS = [
     "a disk box",
     "a golden joystick",
     "negative zero",
+    "a fun new meme generator",
 ]
