@@ -116,6 +116,11 @@ FOLX = [
     "Vulpines",
     "Felines",
     "Kreechurs",
+    "Optimists",
+    "Pessimists",
+    "Realists",
+    "Grouchy sysadmins",
+    "Poets",
 ]
 
 # The case of these will not be changed
@@ -369,4 +374,10 @@ TREATS = [
     "a golden joystick",
     "negative zero",
     "a fun new meme generator",
+    "the unbearable lightness of being",
+    "a camping trip to Isla Sorna",
+    "some mojibake",
+    "one moment of perfect beauty",
+    "a novel compiler bug",
+    "some highland cattle",
 ]
