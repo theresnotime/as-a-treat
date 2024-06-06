@@ -108,6 +108,15 @@ FOLX = [
     "Robos",
     "Drones",
     "We",
+    "The Scout from TF2",
+    "The Soldier from TF2",
+    "The Pyro from TF2",
+    "The Demoman from TF2",
+    "The Heavy from TF2",
+    "The Engineer from TF2",
+    "The Medic from TF2",
+    "The Sniper from TF2",
+    "The Spy from TF2"
 ]
 
 # The case of these will not be changed
@@ -316,4 +325,14 @@ TREATS = [
     "a ride in the front seat of the DLR",
     "the window seat",
     "an empty table seat on the train",
+    "an Übercharge",
+    "the intelligence",
+    "a briefcase",
+    "the capture point",
+    "a payload cart",
+    "the hill",
+    "hats",
+    "crate keys",
+    "an unusual",
+    "a golden frying pan"
 ]
