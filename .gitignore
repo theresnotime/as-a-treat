@@ -5,3 +5,4 @@ config.py
 .vscode/
 last_*
 used_*
+*.log
