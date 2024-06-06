@@ -129,7 +129,7 @@ FOLX = [
     "The Engineer from TF2",
     "The Medic from TF2",
     "The Sniper from TF2",
-    "The Spy from TF2"
+    "The Spy from TF2",
 ]
 
 # The case of these will not be changed
@@ -398,5 +398,5 @@ TREATS = [
     "hats",
     "crate keys",
     "an unusual",
-    "a golden frying pan"
+    "a golden frying pan",
 ]
