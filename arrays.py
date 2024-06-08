@@ -399,4 +399,5 @@ TREATS = [
     "crate keys",
     "an unusual",
     "a golden frying pan",
+    "a 1.5TB LTO-5 storage tape",
 ]
