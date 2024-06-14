@@ -130,6 +130,7 @@ FOLX = [
     "The Medic from TF2",
     "The Sniper from TF2",
     "The Spy from TF2",
+    "We and our 847 partners",
 ]
 
 # The case of these will not be changed
