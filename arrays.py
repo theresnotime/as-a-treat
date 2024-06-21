@@ -415,4 +415,5 @@ TREATS = [
     "a custom plushie",
     "a bowl of Skittles and M&Ms mixed together",
     "the last Rolo",
+    "an inaccurate commit message",
 ]
