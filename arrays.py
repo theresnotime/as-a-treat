@@ -131,6 +131,9 @@ FOLX = [
     "The Sniper from TF2",
     "The Spy from TF2",
     "We and our 847 partners",
+    "Xbox players",
+    "Playstation players",
+    "PC players",
 ]
 
 # The case of these will not be changed
@@ -402,4 +405,15 @@ TREATS = [
     "a golden frying pan",
     "a 1.5TB LTO-5 storage tape",
     "an unsubstantiated copyright strike",
+    "a sea view room",
+    "an all-you-can-eat buffet",
+    "a comfy hoodie",
+    "a 55-gallon barrel of lube",
+    "a 150kW DC rapid charger",
+    "a little pot of tea",
+    "a platinum trophy",
+    "a custom plushie",
+    "a bowl of Skittles and M&Ms mixed together",
+    "the last Rolo",
+    "an inaccurate commit message",
 ]
