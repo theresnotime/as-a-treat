@@ -105,6 +105,7 @@ FOLX = [
     "Subscribers",
     "Software supply chains",
     "Infosec mavens",
+    "Rapid response furries",
 ]
 
 # The case of these will not be changed
@@ -293,4 +294,5 @@ TREATS = [
     "a demagnetised cassette tape",
     "a spicy GitHub tarball",
     "an sshd backdoor",
+    "an orphan source",
 ]
