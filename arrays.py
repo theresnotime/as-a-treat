@@ -134,6 +134,9 @@ FOLX = [
     "Xbox players",
     "Playstation players",
     "PC players",
+    "Dani",
+    "Mara",
+    "Rail",
 ]
 
 # The case of these will not be changed
