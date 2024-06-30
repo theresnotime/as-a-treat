@@ -137,6 +137,8 @@ FOLX = [
     "Dani",
     "Mara",
     "Rail",
+    "Taavi",
+    "Herobrine",
 ]
 
 # The case of these will not be changed
