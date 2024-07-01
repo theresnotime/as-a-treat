@@ -134,11 +134,15 @@ FOLX = [
     "Xbox players",
     "Playstation players",
     "PC players",
+    "Nintendo players",
     "Dani",
     "Mara",
     "Rail",
     "Taavi",
     "Herobrine",
+    "Linux Ricers",
+    "Sackboy"
+    "Robloxians"
 ]
 
 # The case of these will not be changed
@@ -421,4 +425,15 @@ TREATS = [
     "a bowl of Skittles and M&Ms mixed together",
     "the last Rolo",
     "an inaccurate commit message",
+    "robux"
+    "tix"
+    "a singular robuck"
+    "a singular ticket"
+    "score bubbles"
+    "prize bubbles"
+    "vbucks"
+    "collectabells"
+    "free alternative"
+    "linux rice"
+    "more ram"
 ]
