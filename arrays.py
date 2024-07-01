@@ -425,15 +425,15 @@ TREATS = [
     "a bowl of Skittles and M&Ms mixed together",
     "the last Rolo",
     "an inaccurate commit message",
-    "robux"
-    "tix"
-    "a singular robuck"
-    "a singular ticket"
-    "score bubbles"
-    "prize bubbles"
-    "vbucks"
-    "collectabells"
-    "free alternative"
-    "linux rice"
+    "robux",
+    "tix",
+    "a singular robuck",
+    "a singular ticket",
+    "score bubbles",
+    "prize bubbles",
+    "vbucks",
+    "collectabells",
+    "free alternative",
+    "linux rice",
     "more ram"
 ]
