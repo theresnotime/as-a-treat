@@ -435,5 +435,6 @@ TREATS = [
     "collectabells",
     "free alternative",
     "linux rice",
-    "more ram"
+    "more ram",
+    "more arrays"
 ]
