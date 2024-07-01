@@ -421,4 +421,12 @@ TREATS = [
     "a bowl of Skittles and M&Ms mixed together",
     "the last Rolo",
     "an inaccurate commit message",
+    "yawn detection",
+    "a light switch that doesn't seem to do anything",
+    "an out of control Markov bot",
+    "an HR-mandated diversity and inclusion training video",
+    "some new laptop stickers",
+    "an unexpected package delivery",
+    "a day off",
+    "a vase of pretty flowers",
 ]
