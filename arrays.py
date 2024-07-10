@@ -142,6 +142,9 @@ FOLX = [
     "Everyone in the closet",
     "Disabled people",
     "That kind person at the grocery store",
+    "Criters",
+    "Non-human entities",
+    "Therians",
 ]
 
 # The case of these will not be changed
@@ -441,4 +444,7 @@ TREATS = [
     "a capitalism's downfall",
     "the right to grumble at leisure all day long",
     "a bite",
+    "carcinisation",
+    "a brand new box of floppy disks",
+    "a picture frame containing a projection of everything in the universe",
 ]
