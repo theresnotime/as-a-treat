@@ -139,6 +139,9 @@ FOLX = [
     "Rail",
     "Taavi",
     "Herobrine",
+    "Everyone in the closet",
+    "Disabled people",
+    "That kind person at the grocery store",
 ]
 
 # The case of these will not be changed
@@ -429,4 +432,13 @@ TREATS = [
     "an unexpected package delivery",
     "a day off",
     "a vase of pretty flowers",
+    "me",
+    "a cute blushy face",
+    "an egg",
+    "a wink",
+    "some new plants",
+    "a shiny thing",
+    "a capitalism's downfall",
+    "the right to grumble at leisure all day long",
+    "a bite",
 ]
