@@ -141,8 +141,14 @@ FOLX = [
     "Taavi",
     "Herobrine",
     "Linux Ricers",
-    "Sackboy"
-    "Robloxians"
+    "Sackboy",
+    "Robloxians",
+    "Everyone in the closet",
+    "Disabled people",
+    "That kind person at the grocery store",
+    "Criters",
+    "Non-human entities",
+    "Therians",
 ]
 
 # The case of these will not be changed
@@ -437,4 +443,24 @@ TREATS = [
     "linux rice",
     "more ram",
     "more arrays"
+    "yawn detection",
+    "a light switch that doesn't seem to do anything",
+    "an out of control Markov bot",
+    "an HR-mandated diversity and inclusion training video",
+    "some new laptop stickers",
+    "an unexpected package delivery",
+    "a day off",
+    "a vase of pretty flowers",
+    "me",
+    "a cute blushy face",
+    "an egg",
+    "a wink",
+    "some new plants",
+    "a shiny thing",
+    "a capitalism's downfall",
+    "the right to grumble at leisure all day long",
+    "a bite",
+    "carcinisation",
+    "a brand new box of floppy disks",
+    "a picture frame containing a projection of everything in the universe",
 ]
