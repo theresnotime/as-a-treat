@@ -442,7 +442,7 @@ TREATS = [
     "free alternative",
     "linux rice",
     "more ram",
-    "more arrays"
+    "more arrays",
     "yawn detection",
     "a light switch that doesn't seem to do anything",
     "an out of control Markov bot",
