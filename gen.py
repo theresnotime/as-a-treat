@@ -5,6 +5,7 @@ import os
 import random
 import sys
 from arrays import FOLX, TREATS
+from datetime import datetime, timezone
 from enum import Enum
 from mastodon import Mastodon
 
@@ -43,6 +44,26 @@ def count_combinations() -> None:
     output = f"There are {num_folx} folx and {num_treats} treats, resulting in {combinations:,} possible combinations."
     log.info(output)
     print(output)
+
+
+def update_bio(dry_run: bool = False) -> None:
+    """Update the bot's bio with the number of possible combinations"""
+    num_folx = len(FOLX)
+    num_treats = len(TREATS)
+    combinations = num_folx * num_treats
+    last_update = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    bio = f"You can have another bot, as a treat.\n\nI can choose from {num_folx} folx and {num_treats} treats, so there are {combinations:,} possible combinations.\n\nI last updated this bio on {last_update} (UTC)."
+
+    if dry_run is False:
+        mastodon = Mastodon(
+            access_token=config.ACCESS_TOKEN, api_base_url=config.API_URL
+        )
+        mastodon.account_update_credentials(note=bio)
+        log.info("Updated bio to: %s", bio)
+        print(f"Updated bio to: {bio}")
+    else:
+        print(f"Dry run, would have updated bio to: {bio}")
+        log.info("Dry run, would have updated bio to: %s", bio)
 
 
 def write_status(
@@ -124,6 +145,12 @@ if __name__ == "__main__":
         help="Count the number of possible outputs and exit",
     )
     parser.add_argument(
+        "-u",
+        "--update-bio",
+        action="store_true",
+        help="Update the bot's bio with the number of possible combinations",
+    )
+    parser.add_argument(
         "--visibility",
         type=Visibility,
         choices=list(Visibility),
@@ -142,6 +169,10 @@ if __name__ == "__main__":
 
     if args.count:
         count_combinations()
+        sys.exit(0)
+
+    if args.update_bio:
+        update_bio(args.dry_run)
         sys.exit(0)
 
     used_folx = get_used("folx")
