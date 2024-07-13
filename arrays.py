@@ -146,9 +146,11 @@ FOLX = [
     "Everyone in the closet",
     "Disabled people",
     "That kind person at the grocery store",
-    "Criters",
+    "Critters",
     "Non-human entities",
     "Therians",
+    "Nerds",
+    "Dorks",
 ]
 
 # The case of these will not be changed
@@ -458,10 +460,18 @@ TREATS = [
     "a wink",
     "some new plants",
     "a shiny thing",
-    "a capitalism's downfall",
+    "capitalism's downfall",
     "the right to grumble at leisure all day long",
     "a bite",
     "carcinisation",
     "a brand new box of floppy disks",
     "a picture frame containing a projection of everything in the universe",
+    "a back rub",
+    "all those meetings cancelled",
+    "breakfast in bed",
+    "alt text",
+    "a cat making biscuits",
+    "a piece of helpful advice",
+    "an unexpected long weekend",
+    "a ride in the front seat upstairs on a double-decker bus",
 ]
