@@ -474,4 +474,5 @@ TREATS = [
     "a piece of helpful advice",
     "an unexpected long weekend",
     "a ride in the front seat upstairs on a double-decker bus",
+    "a CloudStrike",
 ]
