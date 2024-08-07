@@ -151,6 +151,9 @@ FOLX = [
     "Therians",
     "Nerds",
     "Dorks",
+    "Cat lovers",
+    "Dog lovers",
+    "Gardeners",
 ]
 
 # The case of these will not be changed
@@ -476,4 +479,13 @@ TREATS = [
     "a ride in the front seat upstairs on a double-decker bus",
     "a CloudStrike",
     "rail renationalisation",
+    "spammy push notifications",
+    "a poorly described Jira ticket",
+    "a squeaky toy",
+    "a surprise tax rebate",
+    "a little bit of pud",
+    "an extra fluffy pillow",
+    "a discount code for 15% off",
+    "tone indicators",
+    "control of the aux",
 ]
