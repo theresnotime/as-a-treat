@@ -488,4 +488,7 @@ TREATS = [
     "a discount code for 15% off",
     "tone indicators",
     "control of the aux",
+    "a reminder to like and subscribe",
+    "a sponsorship from PCBWay",
+    "an indecipherable compiler error",
 ]
