@@ -491,4 +491,9 @@ TREATS = [
     "a reminder to like and subscribe",
     "a sponsorship from PCBWay",
     "an indecipherable compiler error",
+    "a cloned Yubikey",
+    "some copper from Ea-nāṣir",
+    "a live service game shutdown",
+    "a very non-suspicious giant wooden horse",
+    "an arrow to the knee",
 ]
