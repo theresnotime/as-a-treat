@@ -46,7 +46,7 @@ FOLX = [
     "fox.nexus users",
     "honeycomb.engineer users",
     "Yassie",
-    "Yasseenists",
+    "Yaseenists",
     "Folx that use they/them",
     "Open source maintainers",
     "Package maintainers",
