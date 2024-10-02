@@ -154,6 +154,13 @@ FOLX = [
     "Cat lovers",
     "Dog lovers",
     "Gardeners",
+    "Claire",
+    "A random MediaWiki extension",
+    "A random MediaWiki skin",
+    "MediaWiki",
+    "Skin:Citizen",
+    "Extension:Cargo",
+    "Miraheze",
 ]
 
 # The case of these will not be changed
@@ -496,4 +503,10 @@ TREATS = [
     "a live service game shutdown",
     "a very non-suspicious giant wooden horse",
     "an arrow to the knee",
+    "a security vulnerability",
+    "a patch",
+    "an XSS",
+    "a SQL injection",
+    "a CSRF vulnerability",
+    "a fun cat fact",
 ]
