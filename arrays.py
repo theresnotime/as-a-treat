@@ -149,6 +149,7 @@ FOLX = [
     "Critters",
     "Non-human entities",
     "Therians",
+    "No one",
     "Nerds",
     "Dorks",
     "Cat lovers",
@@ -173,6 +174,7 @@ FOLX = [
 # The case of these will not be changed
 TREATS = [
     "a headpat",
+    "nothing",
     "an anti-trust lawsuit",
     "some gunpowder",
     "a misskey fork",
