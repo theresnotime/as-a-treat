@@ -161,6 +161,13 @@ FOLX = [
     "Skin:Citizen",
     "Extension:Cargo",
     "Miraheze",
+    "Starfleet captains",
+    "Klingons",
+    "Romulans",
+    "Vulcans",
+    "Ferengi",
+    "The Borg",
+    "Soong-type androids",
 ]
 
 # The case of these will not be changed
@@ -509,4 +516,11 @@ TREATS = [
     "a SQL injection",
     "a CSRF vulnerability",
     "a fun cat fact",
+    "a warp core breach",
+    "a new Monster of the Week",
+    "membership in the Federation",
+    "subspace interference",
+    "a bowl of Gagh",
+    "an emotion chip",
+    "36 bars of gold-pressed Latinum",
 ]
