@@ -169,6 +169,7 @@ FOLX = [
     "Ferengi",
     "The Borg",
     "Soong-type androids",
+    "Extension:DataDump",
 ]
 
 # The case of these will not be changed
