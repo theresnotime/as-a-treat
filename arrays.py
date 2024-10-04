@@ -170,6 +170,7 @@ FOLX = [
     "The Borg",
     "Soong-type androids",
     "Extension:DataDump",
+    "Extension:CSS",
 ]
 
 # The case of these will not be changed
@@ -526,4 +527,5 @@ TREATS = [
     "a bowl of Gagh",
     "an emotion chip",
     "36 bars of gold-pressed Latinum",
+    "a path traversal",
 ]
