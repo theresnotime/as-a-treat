@@ -171,6 +171,8 @@ FOLX = [
     "Soong-type androids",
     "Extension:DataDump",
     "Extension:CSS",
+    "Extension:CreateWiki",
+    "Extension:WikiDiscover",
 ]
 
 # The case of these will not be changed
