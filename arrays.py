@@ -545,5 +545,5 @@ TREATS = [
     "a mouse ear headband",
     "a baked Camembert",
     "a rubber ducky",
-    "a '; DROP TABLE users; --"
+    "a '; DROP TABLE users; --",
 ]
