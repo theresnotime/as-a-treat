@@ -173,6 +173,9 @@ FOLX = [
     "Extension:CSS",
     "Extension:CreateWiki",
     "Extension:WikiDiscover",
+    "Neocats",
+    "Neofoxes",
+    "donotsta.re users",
 ]
 
 # The case of these will not be changed
@@ -530,4 +533,7 @@ TREATS = [
     "an emotion chip",
     "36 bars of gold-pressed Latinum",
     "a path traversal",
+    "a Framework",
+    "estrogen",
+    "testosterone",
 ]
