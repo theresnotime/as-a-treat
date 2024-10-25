@@ -176,6 +176,8 @@ FOLX = [
     "Neocats",
     "Neofoxes",
     "donotsta.re users",
+    "Cheese gobblers",
+    "Disney adults",
 ]
 
 # The case of these will not be changed
@@ -536,4 +538,11 @@ TREATS = [
     "a Framework",
     "estrogen",
     "testosterone",
+    "Extra Magic Hours",
+    "a Lightning Lane Multi-Pass",
+    "a souvenir bucket of popcorn",
+    "a Loungefly mini backpack",
+    "a mouse ear headband",
+    "a baked Camembert",
+    "a rubber ducky",
 ]
