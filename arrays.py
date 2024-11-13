@@ -178,6 +178,9 @@ FOLX = [
     "donotsta.re users",
     "Cheese gobblers",
     "Disney adults",
+    "IRC users",
+    "ChanServ",
+    "NickServ",
 ]
 
 # The case of these will not be changed
@@ -553,4 +556,7 @@ TREATS = [
     "a 642 episode let's play series",
     "a 210 minute queue for a roller coaster",
     "double pepperoni",
+    "a quip",
+    "op",
+    "voice",
 ]
