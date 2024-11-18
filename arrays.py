@@ -181,6 +181,7 @@ FOLX = [
     "IRC users",
     "ChanServ",
     "NickServ",
+    "API crime committers",
 ]
 
 # The case of these will not be changed
@@ -559,4 +560,6 @@ TREATS = [
     "a quip",
     "op",
     "voice",
+    "a ThinkPad X230",
+    "a pointless button",
 ]
