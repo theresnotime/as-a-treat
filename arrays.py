@@ -562,5 +562,4 @@ TREATS = [
     "voice",
     "a ThinkPad X230",
     "a pointless button",
-    
 ]
