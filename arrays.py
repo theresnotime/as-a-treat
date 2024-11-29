@@ -562,4 +562,11 @@ TREATS = [
     "voice",
     "a ThinkPad X230",
     "a pointless button",
+    "Speedy Boarding",
+    "the next turn on the Xbox",
+    "updated terms and conditions",
+    "the front row on a roller coaster",
+    "the back row on a roller coaster",
+    "a 6€ hot chocolate",
+    "a jigsaw puzzle with a piece missing",
 ]
