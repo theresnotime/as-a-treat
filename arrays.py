@@ -19,7 +19,7 @@ FOLX = [
     "Cryptids",
     "I",
     "The Maus",
-    "A bee",
+    "Bees",
     "Wikipedians",
     "Mathematicians",
     "CS undergrads",
@@ -76,7 +76,7 @@ FOLX = [
     "Nyanbinary folx",
     "Friend-shaped creatures",
     "Neurospicy people",
-    "A Sammy",
+    "Sammy",
     "Xenia",
     "Livvy",
     "Luna",
@@ -182,6 +182,8 @@ FOLX = [
     "ChanServ",
     "NickServ",
     "API crime committers",
+    "Dragonfoxes",
+    "Yinglets",
 ]
 
 # The case of these will not be changed
@@ -584,4 +586,5 @@ TREATS = [
     "a proof that P≠NP",
     "a proof that P=NP",
     "three positive integers a, b, c such that a^n + b^n = c^n for an n > 2",
+    "a glass of choccy milk",
 ]
