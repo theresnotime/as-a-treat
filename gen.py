@@ -1,5 +1,6 @@
 import argparse
 import config
+import ftplib
 import logging
 import os
 import random
@@ -128,6 +129,16 @@ def clear_used(thing: str) -> None:
     log.info("Cleared used %s list", thing)
 
 
+def upload_logs(filename: str):
+    session = ftplib.FTP(config.FTP_HOST, config.FTP_USER, config.FTP_PASS)
+    ftplib.FTP.cwd(session, "as-a-treat")
+    file = open(filename, "rb")
+    session.storbinary(f"STOR {filename}", file)
+    file.close()
+    session.quit()
+    log.info(f"Uploaded {filename}")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='Generate a string in the format "{folx} can have {treats}, as a treat" and post it to fedi'
@@ -205,3 +216,10 @@ if __name__ == "__main__":
 
     status = f"{folx} can have {treat}, as a {treat_or_threat}"
     write_status(status, args.dry_run, args.visibility)
+
+    # Upload logs
+    log.info("Uploading logs...")
+    upload_logs("used_folx")
+    upload_logs("used_treats")
+    upload_logs("as-a-treat.log")
+    log.info("Finished uploading logs")
