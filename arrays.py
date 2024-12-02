@@ -84,7 +84,7 @@ FOLX = [
     "Luna",
     "Julia",
     "Kris",
-    "Fuxle"
+    "Fuxle",
     "transfem.social users",
     "Lexi",
     "catgirl-engine users",
@@ -597,5 +597,5 @@ TREATS = [
     "[object Object]",
     "a Protogen",
     "a cutie",
-    "a pizza"
+    "a pizza",
 ]
