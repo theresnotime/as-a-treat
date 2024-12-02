@@ -129,7 +129,12 @@ def clear_used(thing: str) -> None:
     log.info("Cleared used %s list", thing)
 
 
-def upload_logs(filename: str):
+def upload_logs(filename: str) -> None:
+    """Upload a file to the FTP server"""
+    # Check if filename exists
+    if not os.path.isfile(filename):
+        log.error(f"File {filename} does not exist")
+        return
     session = ftplib.FTP(config.FTP_HOST, config.FTP_USER, config.FTP_PASS)
     ftplib.FTP.cwd(session, "as-a-treat")
     file = open(filename, "rb")
@@ -218,8 +223,11 @@ if __name__ == "__main__":
     write_status(status, args.dry_run, args.visibility)
 
     # Upload logs
-    log.info("Uploading logs...")
-    upload_logs("used_folx")
-    upload_logs("used_treats")
-    upload_logs("as-a-treat.log")
-    log.info("Finished uploading logs")
+    if config.DONT_UPLOAD_LOGS:
+        print("Not uploading logs as DONT_UPLOAD_LOGS is True")
+    else:
+        log.info("Uploading logs...")
+        upload_logs("used_folx")
+        upload_logs("used_treats")
+        upload_logs("as-a-treat.log")
+        log.info("Finished uploading logs")
