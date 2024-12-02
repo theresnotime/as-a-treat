@@ -184,6 +184,7 @@ FOLX = [
     "API crime committers",
     "Dragonfoxes",
     "Yinglets",
+    "My (25M) subs (23F, 26F, 22M, 28M, 28M)",
 ]
 
 # The case of these will not be changed
@@ -587,4 +588,6 @@ TREATS = [
     "a proof that P=NP",
     "three positive integers a, b, c such that a^n + b^n = c^n for an n > 2",
     "a glass of choccy milk",
+    "a union",
+    "a union job",
 ]
