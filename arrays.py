@@ -205,6 +205,7 @@ FOLX = [
     "Wheatley",
     "The BDFL",
     "Lucas",
+    "Hobbits",
 ]
 
 # The case of these will not be changed
@@ -652,4 +653,5 @@ TREATS = [
     "an eepy cat",
     "a Silmaril",
     "a messenger from Godot",
+    "second breakfast",
 ]
