@@ -203,6 +203,8 @@ FOLX = [
     "Chell",
     "GLaDOS",
     "Wheatley",
+    "The BDFL",
+    "Lucas",
 ]
 
 # The case of these will not be changed
@@ -646,4 +648,8 @@ TREATS = [
     "a portal gun",
     "an Aperture Science Handheld Portal Device",
     "a Companion Cube",
+    "a god object",
+    "an eepy cat",
+    "a Silmaril",
+    "a messenger from Godot",
 ]
