@@ -42,8 +42,6 @@ FOLX = [
     "Fedibots",
     "Robotgirls",
     "Dolls",
-    "woem.men users",
-    "woem-ers",
     "labyrinth.zone users",
     "fox.nexus users",
     "honeycomb.engineer users",
