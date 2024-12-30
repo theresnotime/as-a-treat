@@ -204,6 +204,8 @@ FOLX = [
     "The BDFL",
     "Lucas",
     "Hobbits",
+    "Fedi meta",
+    "Medi feta",
 ]
 
 # The case of these will not be changed
@@ -663,4 +665,9 @@ TREATS = [
     "a Silmaril",
     "a messenger from Godot",
     "second breakfast",
+    "a Safe and Sophie Germain prime number",
+    "a cellular automata",
+    "a prime number p greater than 127, such that r=2ᵖ-1 and p=2ʳ-1 are both prime",
+    "a proof to the Collatz Conjecture",
+    "1 (one) virus",
 ]
