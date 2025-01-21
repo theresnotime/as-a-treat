@@ -212,6 +212,7 @@ FOLX = [
     "Hackers",
     "OpenStreetMap contributors",
     "Discordian popes",
+    "Chat",
 ]
 
 # The case of these will not be changed
@@ -703,4 +704,10 @@ TREATS = [
     "a fursuit",
     "an on-time train",
     "a unit test",
+    "a seal of approval",
+    "an idle fancy",
+    "an SSD",
+    "a retro computer",
+    "a layer of untouched snow",
+    "Half-Life 3",
 ]
