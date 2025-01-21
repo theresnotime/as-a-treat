@@ -703,5 +703,4 @@ TREATS = [
     "a fursuit",
     "an on-time train",
     "a unit test",
-    "covfefe",
 ]
