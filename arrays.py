@@ -704,7 +704,6 @@ TREATS = [
     "a fursuit",
     "an on-time train",
     "a unit test",
-    "covfefe",
     "a seal of approval",
     "an idle fancy",
     "an SSD",
