@@ -213,6 +213,7 @@ FOLX = [
     "OpenStreetMap contributors",
     "Discordian popes",
     "Chat",
+    "Moths",
 ]
 
 # The case of these will not be changed
@@ -710,4 +711,5 @@ TREATS = [
     "a retro computer",
     "a layer of untouched snow",
     "Half-Life 3",
+    "a lava lamp",
 ]
