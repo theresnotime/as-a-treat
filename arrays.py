@@ -214,6 +214,8 @@ FOLX = [
     "Discordian popes",
     "Chat",
     "Moths",
+    "Grown-ups",
+    "People who work from home",
 ]
 
 # The case of these will not be changed
@@ -712,4 +714,5 @@ TREATS = [
     "a layer of untouched snow",
     "Half-Life 3",
     "a lava lamp",
+    "a snow day",
 ]
