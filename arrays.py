@@ -715,4 +715,5 @@ TREATS = [
     "Half-Life 3",
     "a lava lamp",
     "a snow day",
+    "a new furry mascot",
 ]
