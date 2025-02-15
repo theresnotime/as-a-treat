@@ -723,4 +723,9 @@ TREATS = [
     "an ASN",
     "a car running gotosocial",
     "a 9.8 CVE",
+    "an artisinally crafted ice cream sundae",
+    "a super intelligent immortal snail",
+    "a LEGO GBC module",
+    "an RMC conversion",
+    "the exit row"
 ]
