@@ -216,6 +216,9 @@ FOLX = [
     "Moths",
     "Grown-ups",
     "People who work from home",
+    "The bots",
+    "That one",
+    "Blåhajar",
 ]
 
 # The case of these will not be changed
@@ -716,4 +719,8 @@ TREATS = [
     "a lava lamp",
     "a snow day",
     "a new furry mascot",
+    "exactly 3 Scritches",
+    "an ASN",
+    "a car running gotosocial",
+    "a 9.8 CVE",
 ]
