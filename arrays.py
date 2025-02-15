@@ -727,5 +727,9 @@ TREATS = [
     "a super intelligent immortal snail",
     "a LEGO GBC module",
     "an RMC conversion",
-    "the exit row"
+    "the exit row",
+    "the tenth pitch drop",
+    "a flip dot display",
+    "DOOM running on a random device",
+    "an asteroid impact",
 ]
