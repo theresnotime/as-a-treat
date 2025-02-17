@@ -1,2 +1,2 @@
-Mastodon.py==1.8.1
+Mastodon.py==2.0.0
 tox==4.23.2
