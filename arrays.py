@@ -732,4 +732,7 @@ TREATS = [
     "a flip dot display",
     "DOOM running on a random device",
     "an asteroid impact",
+    "a puppy",
+    "a flower from a sweetie",
+    "a large correctly-formatted data file",
 ]
