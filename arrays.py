@@ -142,7 +142,6 @@ FOLX = [
     "Rail",
     "Taavi",
     "Herobrine",
-    "Linux Ricers",
     "Sackboy",
     "Robloxians",
     "Everyone in the closet",
