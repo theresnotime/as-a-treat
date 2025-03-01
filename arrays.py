@@ -734,4 +734,9 @@ TREATS = [
     "a puppy",
     "a flower from a sweetie",
     "a large correctly-formatted data file",
+    "floor time",
+    "two Ns",
+    "the Pizza Planet truck",
+    "a cameo from someone that no one has ever heard of",
+    "a line of foxes waiting for chocolate",
 ]
