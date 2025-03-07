@@ -739,4 +739,9 @@ TREATS = [
     "the Pizza Planet truck",
     "a cameo from someone that no one has ever heard of",
     "a line of foxes waiting for chocolate",
+    "plot armour",
+    "a deus ex machina",
+    "Chekhov's gun",
+    "a surprise twist",
+    "subtle foreshadowing",
 ]
