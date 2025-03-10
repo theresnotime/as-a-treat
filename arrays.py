@@ -218,6 +218,7 @@ FOLX = [
     "The bots",
     "That one",
     "Blåhajar",
+    "liv",
 ]
 
 # The case of these will not be changed
@@ -744,4 +745,9 @@ TREATS = [
     "Chekhov's gun",
     "a surprise twist",
     "subtle foreshadowing",
+    "girlfriend",
+    "partner",
+    "boyfriend",
+    "a stable Arch install",
+    "🔑 Unable to decrypt message",
 ]
