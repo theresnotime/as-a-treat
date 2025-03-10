@@ -745,9 +745,9 @@ TREATS = [
     "Chekhov's gun",
     "a surprise twist",
     "subtle foreshadowing",
-    "girlfriend",
-    "partner",
-    "boyfriend",
+    "a girlfriend",
+    "a partner",
+    "a boyfriend",
     "a stable Arch install",
     "🔑 Unable to decrypt message",
 ]
