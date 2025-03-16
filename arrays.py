@@ -219,6 +219,8 @@ FOLX = [
     "That one",
     "Blåhajar",
     "liv",
+    "Your Innie",
+    "Your Outie",
 ]
 
 # The case of these will not be changed
@@ -750,4 +752,9 @@ TREATS = [
     "a boyfriend",
     "a stable Arch install",
     "🔑 Unable to decrypt message",
+    "a Wellness Session",
+    "a hall pass",
+    "some scary numbers",
+    "reintegration",
+    "a Music Dance Experience",
 ]
