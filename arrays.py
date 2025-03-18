@@ -221,6 +221,7 @@ FOLX = [
     "liv",
     "Your Innie",
     "Your Outie",
+    "The Smol",
 ]
 
 # The case of these will not be changed
