@@ -693,7 +693,6 @@ TREATS = [
     "Nutella",
     "a Juicero Press",
     "a cardboard box",
-    "a Cybertruck",
     "a copy of Euro Truck Simulator 2",
     "the gender fluid",
     "a gender",
