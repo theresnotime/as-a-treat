@@ -758,4 +758,6 @@ TREATS = [
     "reintegration",
     "a Music Dance Experience",
     "an ORTBO",
+    "a banger hypercore compilation",
+    "a filthy af 199-bpm track",
 ]
