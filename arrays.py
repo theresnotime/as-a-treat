@@ -222,6 +222,7 @@ FOLX = [
     "Your Innie",
     "Your Outie",
     "The Smol",
+    "Hackerspaces",
 ]
 
 # The case of these will not be changed
@@ -760,4 +761,5 @@ TREATS = [
     "an ORTBO",
     "a banger hypercore compilation",
     "a filthy af 199-bpm track",
+    "mediawiki vulnerabilities",
 ]
