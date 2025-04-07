@@ -84,6 +84,7 @@ FOLX = [
     "Julia",
     "Kris",
     "Fuxle",
+    "Cal",
     "transfem.social users",
     "Lexi",
     "catgirl-engine users",
@@ -762,4 +763,5 @@ TREATS = [
     "a banger hypercore compilation",
     "a filthy af 199-bpm track",
     "mediawiki vulnerabilities",
+    "a random podium inspection",
 ]
