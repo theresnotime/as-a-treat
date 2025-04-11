@@ -764,4 +764,8 @@ TREATS = [
     "a filthy af 199-bpm track",
     "mediawiki vulnerabilities",
     "a random podium inspection",
+    "trains",
+    "a ppc64el-specific bug",
+    "an armhf-specific bug",
+    "a s390x-specific bug",
 ]
