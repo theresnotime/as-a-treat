@@ -224,6 +224,7 @@ FOLX = [
     "Your Outie",
     "The Smol",
     "Hackerspaces",
+    "Beepers",
 ]
 
 # The case of these will not be changed
