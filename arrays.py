@@ -769,4 +769,6 @@ TREATS = [
     "a ppc64el-specific bug",
     "an armhf-specific bug",
     "a s390x-specific bug",
+    "a single /64 IPv6 prefix delegation",
+    "/48 IPv6 address block",
 ]
