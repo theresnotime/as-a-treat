@@ -771,4 +771,5 @@ TREATS = [
     "a s390x-specific bug",
     "a single /64 IPv6 prefix delegation",
     "/48 IPv6 address block",
+    "a fox onesie",
 ]
