@@ -772,4 +772,5 @@ TREATS = [
     "a single /64 IPv6 prefix delegation",
     "/48 IPv6 address block",
     "a fox onesie",
+    "50 GiB of garbage in /nix/store",
 ]
