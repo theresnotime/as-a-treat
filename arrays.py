@@ -776,4 +776,6 @@ TREATS = [
     "/48 IPv6 address block",
     "an answer that only raises further questions",
     "unlimited breadsticks",
+    "a fox onesie",
+    "50 GiB of garbage in /nix/store",
 ]
