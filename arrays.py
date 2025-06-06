@@ -225,6 +225,7 @@ FOLX = [
     "The Smol",
     "Hackerspaces",
     "Beepers",
+    "Computer touchers",
 ]
 
 # The case of these will not be changed
@@ -773,4 +774,8 @@ TREATS = [
     "/48 IPv6 address block",
     "a fox onesie",
     "50 GiB of garbage in /nix/store",
+    "a little cry",
+    "a promotion",
+    "thermal runaway",
+    "DRS activation",
 ]
