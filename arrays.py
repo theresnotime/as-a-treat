@@ -226,6 +226,7 @@ FOLX = [
     "Hackerspaces",
     "Beepers",
     "Computer touchers",
+    "SCP-085",
 ]
 
 # The case of these will not be changed
@@ -629,6 +630,8 @@ TREATS = [
     "a proof of the Riemann hypothesis",
     "a proof that P≠NP",
     "a proof that P=NP",
+    "a constructive proof that P=NP",
+    "a non-constructive proof that P=NP",
     "three positive integers a, b, c such that a^n + b^n = c^n for an n > 2",
     "a glass of choccy milk",
     "a union",
@@ -772,6 +775,8 @@ TREATS = [
     "a s390x-specific bug",
     "a single /64 IPv6 prefix delegation",
     "/48 IPv6 address block",
+    "an answer that only raises further questions",
+    "unlimited breadsticks",
     "a fox onesie",
     "50 GiB of garbage in /nix/store",
     "a little cry",
