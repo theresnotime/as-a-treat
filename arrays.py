@@ -225,6 +225,7 @@ FOLX = [
     "The Smol",
     "Hackerspaces",
     "Beepers",
+    "Computer touchers",
     "SCP-085",
 ]
 
@@ -778,4 +779,8 @@ TREATS = [
     "unlimited breadsticks",
     "a fox onesie",
     "50 GiB of garbage in /nix/store",
+    "a little cry",
+    "a promotion",
+    "thermal runaway",
+    "DRS activation",
 ]
