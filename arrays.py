@@ -227,6 +227,8 @@ FOLX = [
     "Beepers",
     "Computer touchers",
     "SCP-085",
+    "Bouba",
+    "Kiki",
 ]
 
 # The case of these will not be changed
@@ -783,4 +785,7 @@ TREATS = [
     "a promotion",
     "thermal runaway",
     "DRS activation",
+    "a wug",
+    "two wugs",
+    "greebles",
 ]
