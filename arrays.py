@@ -788,4 +788,7 @@ TREATS = [
     "a wug",
     "two wugs",
     "greebles",
+    "a spelling reform",
+    "a live service roadmap",
+    "a broken beta",
 ]
