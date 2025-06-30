@@ -791,4 +791,5 @@ TREATS = [
     "a spelling reform",
     "a live service roadmap",
     "a broken beta",
+    "an account on a friend's Navidrome instance",
 ]
