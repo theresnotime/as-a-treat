@@ -229,6 +229,7 @@ FOLX = [
     "SCP-085",
     "Bouba",
     "Kiki",
+    "Monsterdon",
 ]
 
 # The case of these will not be changed
@@ -792,4 +793,5 @@ TREATS = [
     "a live service roadmap",
     "a broken beta",
     "an account on a friend's Navidrome instance",
+    "a proper kaiju film",
 ]
