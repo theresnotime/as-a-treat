@@ -177,7 +177,6 @@ FOLX = [
     "Extension:WikiDiscover",
     "Neocats",
     "Neofoxes",
-    "donotsta.re users",
     "Cheese gobblers",
     "Disney adults",
     "IRC users",
