@@ -229,6 +229,8 @@ FOLX = [
     "SCP-085",
     "Bouba",
     "Kiki",
+    "As a Treat bot contributors",
+    "GPN attendees",
 ]
 
 # The case of these will not be changed
