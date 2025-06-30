@@ -184,6 +184,7 @@ FOLX = [
     "ChanServ",
     "NickServ",
     "API crime committers",
+    "gts.apicrim.es users",
     "Dragonfoxes",
     "Yinglets",
     "My (25M) subs (23F, 26F, 22M, 28M, 28M)",
