@@ -229,6 +229,7 @@ FOLX = [
     "SCP-085",
     "Bouba",
     "Kiki",
+    "Monsterdon",
     "As a Treat bot contributors",
     "GPN attendees",
     "OpenStack Swift administrators",
@@ -795,6 +796,7 @@ TREATS = [
     "a live service roadmap",
     "a broken beta",
     "an account on a friend's Navidrome instance",
+    "a proper kaiju film",
     "20mg confidence",
     "a corrupted thumbnail container database",
 ]
