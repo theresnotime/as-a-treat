@@ -230,6 +230,9 @@ FOLX = [
     "Bouba",
     "Kiki",
     "Monsterdon",
+    "As a Treat bot contributors",
+    "GPN attendees",
+    "OpenStack Swift administrators",
 ]
 
 # The case of these will not be changed
@@ -794,4 +797,6 @@ TREATS = [
     "a broken beta",
     "an account on a friend's Navidrome instance",
     "a proper kaiju film",
+    "20mg confidence",
+    "a corrupted thumbnail container database",
 ]
