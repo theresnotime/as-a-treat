@@ -233,6 +233,7 @@ FOLX = [
     "As a Treat bot contributors",
     "GPN attendees",
     "OpenStack Swift administrators",
+    "catgirls of the .[center|cloud|global] variety",
 ]
 
 # The case of these will not be changed
@@ -799,4 +800,8 @@ TREATS = [
     "a proper kaiju film",
     "20mg confidence",
     "a corrupted thumbnail container database",
+    "a reliable Deutsche Bahn connection",
+    "a bottle of Mate",
+    "a Tschunk",
+    "colder temperatures",
 ]
