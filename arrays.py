@@ -804,4 +804,5 @@ TREATS = [
     "a bottle of Mate",
     "a Tschunk",
     "colder temperatures",
+    "a new 88x31px button",
 ]
