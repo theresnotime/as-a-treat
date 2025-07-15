@@ -807,4 +807,5 @@ TREATS = [
     "a new 88x31px button",
     "multiple overtakes by DB Fernverkehr",
     "broken wall outlets while on a train",
+    "Karlsruhe",
 ]
