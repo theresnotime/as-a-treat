@@ -806,4 +806,5 @@ TREATS = [
     "colder temperatures",
     "a new 88x31px button",
     "multiple overtakes by DB Fernverkehr",
+    "broken wall outlets while on their train",
 ]
