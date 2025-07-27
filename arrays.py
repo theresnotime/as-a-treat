@@ -808,4 +808,5 @@ TREATS = [
     "multiple overtakes by DB Fernverkehr",
     "broken wall outlets while on a train",
     "Karlsruhe",
+    "a blobcat plushie for [debugging purposes](https://en.wikipedia.org/wiki/Rubber_duck_debugging)",
 ]
