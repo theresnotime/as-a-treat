@@ -235,6 +235,7 @@ FOLX = [
     "OpenStack Swift administrators",
     "catgirls of the .[center|cloud|global] variety",
     "Blue",
+    "Jade",
 ]
 
 # The case of these will not be changed
