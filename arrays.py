@@ -237,6 +237,7 @@ FOLX = [
     "catgirls of the .[center|cloud|global] variety",
     "Blue",
     "Jade",
+    "The treats bot",
 ]
 
 # The case of these will not be changed
@@ -822,4 +823,5 @@ TREATS = [
     "some obvious ragebait",
     "an incomprehensible regex",
     "a PR with 810 changed files",
+    "new profile picture",
 ]
