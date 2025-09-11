@@ -823,5 +823,5 @@ TREATS = [
     "some obvious ragebait",
     "an incomprehensible regex",
     "a PR with 810 changed files",
-    "new profile picture",
+    "a new profile picture",
 ]
