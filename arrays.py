@@ -824,4 +824,5 @@ TREATS = [
     "an incomprehensible regex",
     "a PR with 810 changed files",
     "a new profile picture",
+    "a court summons",
 ]
