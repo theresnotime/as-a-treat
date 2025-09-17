@@ -825,4 +825,6 @@ TREATS = [
     "a PR with 810 changed files",
     "a new profile picture",
     "a court summons",
+    "inconsistently applied internationalization and localisation logic",
+    "inconsistently applied internationalisation and localization logic",
 ]
