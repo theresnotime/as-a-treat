@@ -238,6 +238,7 @@ FOLX = [
     "Blue",
     "Jade",
     "The treats bot",
+    "NTSC video",
 ]
 
 # The case of these will not be changed
@@ -831,4 +832,5 @@ TREATS = [
     "a court summons",
     "inconsistently applied internationalization and localisation logic",
     "inconsistently applied internationalisation and localization logic",
+    "525 scanlines",
 ]
