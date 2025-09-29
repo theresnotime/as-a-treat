@@ -239,6 +239,7 @@ FOLX = [
     "Jade",
     "The treats bot",
     "NTSC video",
+    "Kittens",
 ]
 
 # The case of these will not be changed
@@ -833,4 +834,5 @@ TREATS = [
     "inconsistently applied internationalization and localisation logic",
     "inconsistently applied internationalisation and localization logic",
     "525 scanlines",
+    "garlic",
 ]
