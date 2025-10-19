@@ -835,4 +835,5 @@ TREATS = [
     "inconsistently applied internationalisation and localization logic",
     "525 scanlines",
     "garlic",
+    "a British thermal unit defined in metric",
 ]
