@@ -240,6 +240,7 @@ FOLX = [
     "The treats bot",
     "NTSC video",
     "Kittens",
+    "Spherical cow in a vacuum",
 ]
 
 # The case of these will not be changed
