@@ -241,6 +241,8 @@ FOLX = [
     "NTSC video",
     "Kittens",
     "Spherical cow in a vacuum",
+    "Ducks",
+    "Quackers",
 ]
 
 # The case of these will not be changed
@@ -837,4 +839,8 @@ TREATS = [
     "525 scanlines",
     "garlic",
     "a British thermal unit defined in metric",
+    "a ha'penny bit",
+    "an excess baggage charge",
+    "a feature drop",
+    "long bacon",
 ]
