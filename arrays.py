@@ -843,4 +843,6 @@ TREATS = [
     "an excess baggage charge",
     "a feature drop",
     "long bacon",
+    "a job offer",
+    "a rejection to the job offer they applied for",
 ]
