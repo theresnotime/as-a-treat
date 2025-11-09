@@ -846,4 +846,9 @@ TREATS = [
     "a job offer",
     "a rejection to the job offer they applied for",
     "an O-line",
+    "a plate of fluffy pancakes",
+    "a 22 hour trip on a ferry",
+    "excessive turbulence",
+    "an update to our privacy policy",
+    "an accent that can't quite be placed",
 ]
