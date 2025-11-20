@@ -850,5 +850,7 @@ TREATS = [
     "excessive turbulence",
     "an update to our privacy policy",
     "an accent that can't quite be placed",
+    "a tax invoice from HMRC",
+    "an AI-generated bug report",
     "200 commits from over 40 contributors",
 ]
