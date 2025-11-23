@@ -243,6 +243,9 @@ FOLX = [
     "Spherical cow in a vacuum",
     "Ducks",
     "Quackers",
+    "Girls",
+    "Boys",
+    "Enbies",
 ]
 
 # The case of these will not be changed
@@ -348,6 +351,7 @@ TREATS = [
     "a 7200 RPM hard drive",
     "a zero-day exploit",
     "a cute little collar",
+    "a subpost",
     "*this* subpost",
     "a little nap",
     "trailing commas",
