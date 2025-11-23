@@ -246,6 +246,7 @@ FOLX = [
     "Girls",
     "Boys",
     "Enbies",
+    "Dragons",
 ]
 
 # The case of these will not be changed
@@ -857,4 +858,5 @@ TREATS = [
     "a tax invoice from HMRC",
     "an AI-generated bug report",
     "200 commits from over 40 contributors",
+    "a pet dragon",
 ]
