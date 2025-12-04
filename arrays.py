@@ -859,4 +859,5 @@ TREATS = [
     "an AI-generated bug report",
     "200 commits from over 40 contributors",
     "a pet dragon",
+    "an extra hour in the ball pit",
 ]
