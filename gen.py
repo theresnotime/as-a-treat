@@ -1,4 +1,5 @@
 import argparse
+import archive
 import config
 import ftplib
 import logging
@@ -230,4 +231,8 @@ if __name__ == "__main__":
         upload_logs("used_folx")
         upload_logs("used_treats")
         upload_logs("as-a-treat.log")
+        upload_logs("as-a-treat.log")
         log.info("Finished uploading logs")
+
+    # Run periodic archive
+    archive.run_periodic_archive(dry_run=args.dry_run)
