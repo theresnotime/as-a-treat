@@ -860,4 +860,5 @@ TREATS = [
     "200 commits from over 40 contributors",
     "a pet dragon",
     "an extra hour in the ball pit",
+    "one little spark of inspiration",
 ]
