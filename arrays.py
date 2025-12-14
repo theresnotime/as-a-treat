@@ -247,6 +247,7 @@ FOLX = [
     "Boys",
     "Enbies",
     "Dragons",
+    "39C3 attendees",
 ]
 
 # The case of these will not be changed
