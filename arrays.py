@@ -807,4 +807,6 @@ TREATS = [
     "a new 88x31px button",
     "multiple overtakes by DB Fernverkehr",
     "broken wall outlets while on a train",
+    "an exclusive table lock",
+    "an SQLITE_BUSY error",
 ]
