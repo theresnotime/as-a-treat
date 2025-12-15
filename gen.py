@@ -1,6 +1,7 @@
 import argparse
 import config
 import ftplib
+import json
 import logging
 import os
 import random
@@ -201,17 +202,37 @@ if __name__ == "__main__":
         available_folx = FOLX
         clear_used("folx")
 
-    # Remove previously used treats
     available_treats = [item for item in TREATS if item not in used_treats]
     log.debug("%d unused treats remaining", len(available_treats))
     if len(available_treats) == 0:
         available_treats = TREATS
         clear_used("treats")
 
+    # Totally pointless shuffle :3
+    random.shuffle(available_treats)
+    random.shuffle(available_folx)
+
     # Choose a random folx and treat from the remaining available options
     folx = random.choice(available_folx)
     treat = random.choice(available_treats)
-    log.debug('Chose folx "%s" and treat "%s"', folx, treat)
+
+    # Handle 'alternate wording' treats
+    if treat.startswith("{") and treat.endswith("}"):
+        if json.loads(treat).get("alt_wording") == "True" and "text" in json.loads(
+            treat
+        ):
+            alt_wording = True
+            treat_text = json.loads(treat)["text"]
+            log.debug('Using alternate wording for treat: "%s"', treat_text)
+        else:
+            # Something went wrong with the formatting
+            log.error("Treat formatting error - invalid JSON: %s", treat)
+            sys.exit(1)
+    else:
+        alt_wording = False
+        treat_text = treat
+
+    log.debug('Chose folx "%s" and treat "%s"', folx, treat_text)
 
     # Save the chosen folx and treat so they can't be picked again
     save_used("folx", folx)
@@ -219,7 +240,11 @@ if __name__ == "__main__":
 
     treat_or_threat = "threat" if should_be_threat() else "treat"
 
-    status = f"{folx} can have {treat}, as a {treat_or_threat}"
+    if alt_wording:
+        status = f"{folx} {treat_text}, as a {treat_or_threat}"
+    else:
+        status = f"{folx} can have {treat_text}, as a {treat_or_threat}"
+
     write_status(status, args.dry_run, args.visibility)
 
     # Upload logs
