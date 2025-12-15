@@ -32,6 +32,17 @@ TREATS = [
 ]
 ```
 
+#### Alternate wording
+You can now also add treats with alternate wording. These are represented as JSON objects with `text` and `alt_wording` keys. For example:
+
+```python
+TREATS = [
+    '{"alt_wording": "True", "text": "can do Arson"}',
+    "a headpat",
+    [...],
+]
+```
+
 ### Tox
 I use `tox` to run tests, check code style and fix formatting. It's a good idea to run it before pushing changes. A GitHub action will also run it on PRs.
 ```bash

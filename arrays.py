@@ -1,6 +1,7 @@
-# Format: {folx} can have {treats}, as a treat
+# Format: {folx} can have {treat}, as a treat
+# UNLESS the treat uses alternate wording, in which case the format is: {folx} {treat}, as a treat
 
-# The case of these will not be changed
+# Note: The case of these will not be changed.
 FOLX = [
     "Transfems",
     "Foxgirls",
@@ -250,7 +251,9 @@ FOLX = [
     "39C3 attendees",
 ]
 
-# The case of these will not be changed
+# Note: The case of these will not be changed.
+# either give a string or a JSON object
+# with "text" and "alt_wording" keys
 TREATS = [
     "a headpat",
     "nothing",
@@ -864,4 +867,5 @@ TREATS = [
     "a pet dragon",
     "an extra hour in the ball pit",
     "one little spark of inspiration",
+    '{"alt_wording": "True", "text": "can do Arson"}',
 ]
