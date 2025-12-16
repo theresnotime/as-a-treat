@@ -868,4 +868,9 @@ TREATS = [
     "an extra hour in the ball pit",
     "one little spark of inspiration",
     '{"alt_wording": "True", "text": "can do Arson"}',
+    "an ever-increasing array",
+    "even more technical debt",
+    "an ever-increasing level of complexity in a silly side-project that nobody asked for",
+    "10 more minutes in the park",
+    "an AI-generated commit message",
 ]
