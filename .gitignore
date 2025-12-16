@@ -1,6 +1,7 @@
 venv/
 .tox/
 __pycache__/
+.mypy_cache/
 config.py
 .vscode/
 last_*
