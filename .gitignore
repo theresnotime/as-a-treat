@@ -6,3 +6,5 @@ config.py
 last_*
 used_*
 *.log
+most_interacted.json
+statuses_cache.*

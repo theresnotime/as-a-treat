@@ -1,11 +1,13 @@
 import argparse
 import config
 import ftplib
+import hashlib
 import json
 import logging
 import os
 import random
 import sys
+import time
 from arrays import FOLX, TREATS
 from datetime import datetime, timezone
 from enum import Enum
@@ -145,6 +147,125 @@ def upload_logs(filename: str) -> None:
     log.info(f"Uploaded {filename}")
 
 
+def get_status_count(mastodon: Mastodon) -> int:
+    """Get the total number of statuses posted by the bot"""
+    account = mastodon.me()
+    return account.statuses_count
+
+
+def most_interacted(over_count: int = 400, cache: bool = True) -> None:
+    """Find the most interacted with post and save a link to a file"""
+    mastodon = Mastodon(access_token=config.ACCESS_TOKEN, api_base_url=config.API_URL)
+    start_time = time.time()
+    total_statuses = get_status_count(mastodon)
+    print(f"Total statuses: {total_statuses}")
+    target_count = over_count
+    print(f"Fetching about the last {target_count} statuses...")
+    statuses = mastodon.account_statuses(
+        id=mastodon.me().id,
+        exclude_replies=True,
+        exclude_reblogs=True,
+        limit=40,
+    )
+    all_statuses: list = []
+    while statuses and len(all_statuses) < target_count:
+        all_statuses.extend(statuses)
+        if len(all_statuses) >= target_count:
+            break
+        print(f"Fetched {len(all_statuses)} statuses so far...")
+        statuses = mastodon.fetch_next(statuses)
+        # Be nice to the server
+        if len(all_statuses) % 400 == 0:
+            print("Sleeping for 1 second to be nice to the server...")
+            time.sleep(1)
+
+    if not all_statuses:
+        print("No statuses found")
+        return
+    print(f"Fetched {len(all_statuses)} statuses and stopping")
+
+    most_interacted_status = max(
+        all_statuses,
+        key=lambda status: status.reblogs_count + status.favourites_count,
+    )
+    link = most_interacted_status.url
+    end_time = time.time()
+
+    print(most_interacted_status)
+    sys.exit(0)
+
+    if cache:
+        cache_content: dict = {
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "account_id": mastodon.me().id,
+            "account_username": mastodon.me().username,
+            "statuses_searched": len(all_statuses),
+            "account_total_statuses": total_statuses,
+            "most_interacted_status_in_batch": {
+                "id": most_interacted_status.id,
+                "timestamp": most_interacted_status.created_at.isoformat(),
+                "url": most_interacted_status.url,
+                "content": most_interacted_status.content,
+                "reblogs_count": most_interacted_status.reblogs_count,
+                "favourites_count": most_interacted_status.favourites_count,
+            },
+            "newest_status_id": all_statuses[0].id,
+            "oldest_status_id": all_statuses[-1].id,
+            "time_taken_seconds": f"{end_time - start_time:.2f}",
+            "statuses_count": len(all_statuses),
+            "statuses_hash": None,
+            "statuses": [],
+        }
+        for status in all_statuses:
+            cache_content["statuses"].append(
+                {
+                    "id": status.id,
+                    "timestamp": status.created_at.isoformat(),
+                    "url": status.url,
+                    "content": status.content,
+                    "reblogs_count": status.reblogs_count,
+                    "favourites_count": status.favourites_count,
+                }
+            )
+        # Generate a hash of cache_content["statuses"] for cache key
+        hasher = hashlib.sha256()
+        hasher.update(json.dumps(cache_content["statuses"], sort_keys=True).encode())
+        cache_content["statuses_hash"] = hasher.hexdigest()
+
+        cache_content = {**cache_content}
+
+        # If the cache file exists, copy it to a backup
+        if os.path.isfile("statuses_cache.json"):
+            os.rename("statuses_cache.json", "statuses_cache.backup.json")
+
+        # Write the cache to a file
+        with open("statuses_cache.json", "w") as f:
+            f.write(json.dumps(cache_content, indent=4))
+        print("Wrote cache to statuses_cache.json")
+
+    print(
+        f"Checked {len(all_statuses)} statuses in {end_time - start_time:.2f} seconds"
+    )
+    print(f"Most interacted post: {link}")
+    print(
+        f"Boosts: {most_interacted_status.reblogs_count}, Favourites: {most_interacted_status.favourites_count}"
+    )
+    result = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "id": most_interacted_status.id,
+        "post_timestamp": most_interacted_status.created_at.isoformat(),
+        "url": most_interacted_status.url,
+        "content": most_interacted_status.content,
+        "reblogs_count": most_interacted_status.reblogs_count,
+        "favourites_count": most_interacted_status.favourites_count,
+        "statuses_searched": len(all_statuses),
+        "account_total_statuses": total_statuses,
+    }
+    with open("most_interacted.json", "w") as f:
+        f.write(json.dumps(result, indent=4))
+    log.info("Most interacted post: %s", link)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='Generate a string in the format "{folx} can have {treats}, as a treat" and post it to fedi'
@@ -160,6 +281,19 @@ if __name__ == "__main__":
         "--count",
         action="store_true",
         help="Count the number of possible outputs and exit",
+    )
+    parser.add_argument(
+        "--most-interacted",
+        action="store",
+        help="Find the most interacted with post in the last COUNT statuses, save to a file, and exit",
+        type=int,
+        metavar="COUNT",
+        default=400,
+    )
+    parser.add_argument(
+        "--status-count",
+        action="store_true",
+        help="Return the total number of statuses posted by the bot and exit",
     )
     parser.add_argument(
         "-u",
@@ -190,6 +324,19 @@ if __name__ == "__main__":
 
     if args.update_bio:
         update_bio(args.dry_run)
+        sys.exit(0)
+
+    if args.status_count:
+        mastodon = Mastodon(
+            access_token=config.ACCESS_TOKEN, api_base_url=config.API_URL
+        )
+        total_statuses = get_status_count(mastodon)
+        print(total_statuses)
+        sys.exit(0)
+
+    if args.most_interacted:
+        check_count = int(args.most_interacted)
+        most_interacted(check_count)
         sys.exit(0)
 
     used_folx = get_used("folx")
