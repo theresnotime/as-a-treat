@@ -15,9 +15,6 @@ from mastodon import Mastodon
 
 log = logging.getLogger(__name__)
 
-# The chance for the treat to become a threat
-THREAT_PROBABILITY = 1 / 100
-
 
 class Visibility(Enum):
     """The possible visibilities for a post according to the mastodon client"""
@@ -80,16 +77,24 @@ def write_status(
             access_token=config.ACCESS_TOKEN, api_base_url=config.API_URL
         )
         mastodon.status_post(status=status, visibility=str(visibility))
-        log.info('Posted "%s"', status)
-        print(f"Posted {status}")
+        log.info('Posted: "%s"', status)
+        print(f"Posted: {status}")
     else:
-        print(f"Dry run, would have posted {status}")
-        log.info('Dry run, would have posted "%s"', status)
+        print(f'Dry run: would have posted "{status}"')
+        log.info('Dry run: would have posted "%s"', status)
 
 
 def should_be_threat():
-    """Use THREAT_PROBABILITY to determine if this treat should be a threat"""
-    range_max = int(1 / THREAT_PROBABILITY)
+    """Use config.THREAT_PROBABILITY to determine if this treat should be a threat"""
+    # TODO: Remove this check once enough time has passed since adding THREAT_PROBABILITY to config
+    if not hasattr(config, "THREAT_PROBABILITY"):
+        # Warn in the logs and on the console
+        log.warning("THREAT_PROBABILITY is not present in config, using old default")
+        print("Warning: THREAT_PROBABILITY is not present in config, using old default")
+        # Use old default of '1 / 100'
+        range_max = int(1 / (1 / 100))
+    else:
+        range_max = int(1 / config.THREAT_PROBABILITY)
     chosen_value = random.randint(1, range_max)
     log.debug("Treat/Threat value %d (threat requires %d)", chosen_value, range_max)
 
@@ -376,7 +381,7 @@ if __name__ == "__main__":
         alt_wording = False
         treat_text = treat
 
-    log.debug('Chose folx "%s" and treat "%s"', folx, treat_text)
+    log.debug('Picked folx "%s" and treat "%s"', folx, treat_text)
 
     # Save the chosen folx and treat so they can't be picked again
     save_used("folx", folx)
