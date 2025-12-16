@@ -191,9 +191,6 @@ def most_interacted(over_count: int = 400, cache: bool = True) -> None:
     link = most_interacted_status.url
     end_time = time.time()
 
-    print(most_interacted_status)
-    sys.exit(0)
-
     if cache:
         cache_content: dict = {
             "timestamp": datetime.now(timezone.utc).isoformat(),
