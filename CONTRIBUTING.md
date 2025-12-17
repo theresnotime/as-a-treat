@@ -66,6 +66,12 @@ tox
 tox -e fix
 ```
 
+
+## AI contributions
+The contributors to this project believe that AI-assisted code contributions should be avoided where possible for environmental, ethical and code quality reasons - therefore, any contribution that has been *obviously and entirely generated* by AI tools is likely to be rejected.
+Further information is available in [AI.md](AI.md).
+
+
 ## Gotchas
 - `gen.py` will fail if `config.py` isn't present — you can just copy `config.example.py` to `config.py` while testing. Note that the example config doesn't contain the necessary credentials to actually make a post.
-- I <3 trailing commas, and `tox` will get very upset if you forget this :3 
+- I <3 trailing commas, and `tox` will get very upset if you forget this :3
