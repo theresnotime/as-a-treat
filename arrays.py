@@ -544,7 +544,7 @@ TREATS = [
     "prize bubbles",
     "vbucks",
     "collectabells",
-    "free alternative",
+    "a free alternative",
     "linux rice",
     "more ram",
     "more arrays",
@@ -873,4 +873,7 @@ TREATS = [
     "an ever-increasing level of complexity in a silly side-project that nobody asked for",
     "10 more minutes in the park",
     "an AI-generated commit message",
+    "a stolen MCRN gunship",
+    "a sample of the Protomolecule",
+    "an all expenses paid trip to Luna",
 ]
