@@ -249,6 +249,7 @@ FOLX = [
     "Enbies",
     "Dragons",
     "39C3 attendees",
+    "The Crystalline Entity",
 ]
 
 # Note: The case of these will not be changed.
@@ -877,4 +878,9 @@ TREATS = [
     "a sample of the Protomolecule",
     "an all expenses paid trip to Luna",
     "an unexpected trip to Isengard",
+    "a type-6 shuttlecraft",
+    "a Dyson sphere",
+    "a Pez dispenser",
+    "something from santa's sack",
+    "a light and a whistle for attracting attention",
 ]
