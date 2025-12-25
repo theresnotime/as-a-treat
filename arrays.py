@@ -876,4 +876,5 @@ TREATS = [
     "a stolen MCRN gunship",
     "a sample of the Protomolecule",
     "an all expenses paid trip to Luna",
+    "an unexpected trip to Isengard",
 ]
