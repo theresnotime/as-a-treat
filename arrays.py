@@ -883,4 +883,5 @@ TREATS = [
     "a Pez dispenser",
     "something from santa's sack",
     "a light and a whistle for attracting attention",
+    "a treet",
 ]
