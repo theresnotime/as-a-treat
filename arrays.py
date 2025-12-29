@@ -250,6 +250,8 @@ FOLX = [
     "Dragons",
     "39C3 attendees",
     "The Crystalline Entity",
+    "The Arsons",
+    "The Arson family",
 ]
 
 # Note: The case of these will not be changed.
