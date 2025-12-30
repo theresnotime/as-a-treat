@@ -888,4 +888,6 @@ TREATS = [
     "a treet",
     "an explosion",
     "arson",
+    "more ESP32s",
+    "another development board",
 ]
