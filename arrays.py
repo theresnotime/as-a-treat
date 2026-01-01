@@ -252,6 +252,10 @@ FOLX = [
     "The Crystalline Entity",
     "The Arsons",
     "The Arson family",
+    "The hiders",
+    "The seekers",
+    "People who've seen it",
+    "People who've seen it and said it",
 ]
 
 # Note: The case of these will not be changed.
@@ -890,4 +894,12 @@ TREATS = [
     "arson",
     "more ESP32s",
     "another development board",
+    "a moment without scrapers",
+    "excuses",
+    "Curse of the Gambler's Feet",
+    "a five-minute bonus",
+    "a thirty-minute bonus",
+    "a picture of the tallest building visible from the station",
+    "it sorted",
+    "be sorted",
 ]
