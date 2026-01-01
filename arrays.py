@@ -254,6 +254,8 @@ FOLX = [
     "The Arson family",
     "The hiders",
     "The seekers",
+    "People who've seen it",
+    "People who've seen it and said it",
 ]
 
 # Note: The case of these will not be changed.
@@ -898,4 +900,5 @@ TREATS = [
     "a five-minute bonus",
     "a thirty-minute bonus",
     "a picture of the tallest building visible from the station",
+    "it sorted",
 ]
