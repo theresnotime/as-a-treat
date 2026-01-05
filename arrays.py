@@ -902,4 +902,11 @@ TREATS = [
     "a picture of the tallest building visible from the station",
     "it sorted",
     '{"alt_wording": "True", "text": "can be sorted"}',
+    "an industrial robot",
+    "a pick-and-place machine",
+    "a laser cutter",
+    "an ANSI Z535 warning sign",
+    "a sign that follows the 1968 Vienna Convention on Road Signs and Signals",
+    "a yellow stop sign",
+    "an e-stop button",
 ]
