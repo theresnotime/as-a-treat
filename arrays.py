@@ -901,7 +901,7 @@ TREATS = [
     "a thirty-minute bonus",
     "a picture of the tallest building visible from the station",
     "it sorted",
-    "be sorted",
+    '{"alt_wording": "True", "text": "can be sorted"}',
     "an industrial robot",
     "a pick-and-place machine",
     "a laser cutter",
