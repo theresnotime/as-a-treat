@@ -290,7 +290,6 @@ if __name__ == "__main__":
         help="Find the most interacted with post in the last COUNT statuses, save to a file, and exit",
         type=int,
         metavar="COUNT",
-        default=400,
     )
     parser.add_argument(
         "--status-count",
