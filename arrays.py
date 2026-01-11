@@ -909,4 +909,5 @@ TREATS = [
     "a sign that follows the 1968 Vienna Convention on Road Signs and Signals",
     "a yellow stop sign",
     "an e-stop button",
+    "an album gifted by a friend",
 ]
