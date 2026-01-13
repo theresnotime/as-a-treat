@@ -256,6 +256,7 @@ FOLX = [
     "The seekers",
     "People who've seen it",
     "People who've seen it and said it",
+    "Cats",
 ]
 
 # Note: The case of these will not be changed.
@@ -910,4 +911,5 @@ TREATS = [
     "a yellow stop sign",
     "an e-stop button",
     "an album gifted by a friend",
+    "a treat",
 ]
