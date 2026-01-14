@@ -92,7 +92,6 @@ FOLX = [
     "Cute dorks",
     "The BOFH",
     "Wikimedians",
-    "Tim Sweeney",
     "Pastafarians",
     "Discordians",
     "Neurotypicals",
