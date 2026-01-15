@@ -911,4 +911,6 @@ TREATS = [
     "an e-stop button",
     "an album gifted by a friend",
     "a treat",
+    "a shared brain cell",
+    "a stolen brain cell",
 ]
