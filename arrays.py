@@ -256,6 +256,8 @@ FOLX = [
     "People who've seen it",
     "People who've seen it and said it",
     "Cats",
+    "Typst users",
+    "LaTeX users",
 ]
 
 # Note: The case of these will not be changed.
@@ -913,4 +915,5 @@ TREATS = [
     "a treat",
     "a shared brain cell",
     "a stolen brain cell",
+    "German spellchecking",
 ]
