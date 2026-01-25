@@ -258,6 +258,7 @@ FOLX = [
     "Cats",
     "Typst users",
     "LaTeX users",
+    "Mr Barrister John Warosa",
 ]
 
 # Note: The case of these will not be changed.
@@ -917,4 +918,6 @@ TREATS = [
     "a stolen brain cell",
     "German spellchecking",
     "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa :neofox_scream:",
+    "150 million dollars United State Dollars",
+    "the kind of information you should never share with a stranger on the internet",
 ]
