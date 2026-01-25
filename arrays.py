@@ -916,4 +916,5 @@ TREATS = [
     "a shared brain cell",
     "a stolen brain cell",
     "German spellchecking",
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa :neofox_scream:",
 ]
