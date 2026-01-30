@@ -920,4 +920,5 @@ TREATS = [
     "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa :neofox_scream:",
     "150 million dollars United State Dollars",
     "the kind of information you should never share with a stranger on the internet",
+    "their posts quoted on Wiktionary",
 ]
