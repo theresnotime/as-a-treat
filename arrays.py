@@ -922,4 +922,8 @@ TREATS = [
     "the kind of information you should never share with a stranger on the internet",
     "their posts quoted on Wiktionary",
     "a critical alarm for dragging equipment near axle 113",
+    '{"alt_wording": "True", "text": "can go to the Good Place"}',
+    "frozen yogurt with a million flavours mixed together",
+    "unlimited refills",
+    "a dry solder joint",
 ]
