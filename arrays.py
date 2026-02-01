@@ -926,4 +926,5 @@ TREATS = [
     "frozen yogurt with a million flavours mixed together",
     "unlimited refills",
     "a dry solder joint",
+    "a track of interest in the system",
 ]
