@@ -927,4 +927,5 @@ TREATS = [
     "unlimited refills",
     "a dry solder joint",
     "a track of interest in the system",
+    "a pre-commit hook",
 ]
