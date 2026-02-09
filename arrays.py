@@ -258,7 +258,8 @@ FOLX = [
     "Cats",
     "Typst users",
     "LaTeX users",
-    "Mr Barrister John Warosa",
+    "Mr Barrister John Warosa", 
+    "$instance$HOST$ users",
 ]
 
 # Note: The case of these will not be changed.
