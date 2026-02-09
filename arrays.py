@@ -258,7 +258,7 @@ FOLX = [
     "Cats",
     "Typst users",
     "LaTeX users",
-    "Mr Barrister John Warosa", 
+    "Mr Barrister John Warosa",
     "$instance$HOST$ users",
 ]
 
