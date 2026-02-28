@@ -962,4 +962,5 @@ TREATS = [
     "regenerative braking",
     "a retrofitted USB-C port",
     "a gov.uk subdomain",
+    "union recognition",
 ]
