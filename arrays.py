@@ -271,6 +271,8 @@ FOLX = [
     "Zoey",
     "Lilian",
     "Abby",
+    "The U.S. Chemical Safety Board",
+    "Objects that struck the data center",
 ]
 
 # Note: The case of these will not be changed.
@@ -963,4 +965,11 @@ TREATS = [
     "a retrofitted USB-C port",
     "a gov.uk subdomain",
     "union recognition",
+    "a peering dispute",
+    "an AXFR transfer",
+    "a zone delegation",
+    "impact from objects that struck the data center",
+    "positive signs of recovery",
+    "a localized power issue",
+    "an unimpacted Availability Zone",
 ]
