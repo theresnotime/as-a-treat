@@ -972,4 +972,5 @@ TREATS = [
     "positive signs of recovery",
     "a localized power issue",
     "an unimpacted Availability Zone",
+    "an irregularly beeping object",
 ]
