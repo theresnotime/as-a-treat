@@ -973,4 +973,9 @@ TREATS = [
     "a localized power issue",
     "an unimpacted Availability Zone",
     "an irregularly beeping object",
+    "an opsec fail",
+    "an exception for looking very polite",
+    "gender medication",
+    "another new hobby",
+    "end-to-end encryption",
 ]
