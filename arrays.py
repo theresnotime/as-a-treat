@@ -273,6 +273,7 @@ FOLX = [
     "Abby",
     "The U.S. Chemical Safety Board",
     "Objects that struck the data center",
+    "The wolp",
 ]
 
 # Note: The case of these will not be changed.
@@ -978,4 +979,5 @@ TREATS = [
     "gender medication",
     "another new hobby",
     "end-to-end encryption",
+    "an orange wristband",
 ]
