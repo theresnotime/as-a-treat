@@ -958,7 +958,7 @@ TREATS = [
     "an airline transport pilot licence",
     "a ride on an ex-ÖBB Alstom/CAF Talent 3",
     "Käsespätzle mit Waldpilzsuppe",
-    "200 GB of 'System Data' on their Apple devices",
+    "200 GB of 'System Data' on an Apple device",
     "a new name",
     "a price hike",
     "today's sponsor, NordVPN",
