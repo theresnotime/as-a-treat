@@ -980,4 +980,5 @@ TREATS = [
     "another new hobby",
     "end-to-end encryption",
     "an orange wristband",
+    "goods and/or services",
 ]
