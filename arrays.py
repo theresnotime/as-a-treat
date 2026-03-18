@@ -274,6 +274,7 @@ FOLX = [
     "The U.S. Chemical Safety Board",
     "Objects that struck the data center",
     "The wolp",
+    "Baby Globe",
 ]
 
 # Note: The case of these will not be changed.
@@ -981,4 +982,5 @@ TREATS = [
     "end-to-end encryption",
     "an orange wristband",
     "goods and/or services",
+    "a birthday cake",
 ]
