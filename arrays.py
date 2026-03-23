@@ -275,6 +275,7 @@ FOLX = [
     "Objects that struck the data center",
     "The wolp",
     "Baby Globe",
+    "The gostak",
 ]
 
 # Note: The case of these will not be changed.
@@ -983,4 +984,5 @@ TREATS = [
     "an orange wristband",
     "goods and/or services",
     "a birthday cake",
+    '{"alt_wording": "True", "text": "can distim the doshes"}',
 ]
