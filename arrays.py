@@ -985,4 +985,5 @@ TREATS = [
     "goods and/or services",
     "a birthday cake",
     '{"alt_wording": "True", "text": "can distim the doshes"}',
+    '{"alt_wording": "True", "text": "can get banned from the local hackerspace"}',
 ]
