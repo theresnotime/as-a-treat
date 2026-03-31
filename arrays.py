@@ -991,4 +991,5 @@ TREATS = [
     "the inexorable passage of time",
     "visibility",
     "a little ice cream",
+    "a broadcasting permit",
 ]
