@@ -277,6 +277,7 @@ FOLX = [
     "Baby Globe",
     "The gostak",
     "RimWorld players",
+    "Chloë",
 ]
 
 # Note: The case of these will not be changed.
@@ -989,4 +990,5 @@ TREATS = [
     '{"alt_wording": "True", "text": "can get banned from the local hackerspace"}',
     "the inexorable passage of time",
     "visibility",
+    "a little ice cream",
 ]
