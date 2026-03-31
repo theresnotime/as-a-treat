@@ -276,6 +276,7 @@ FOLX = [
     "The wolp",
     "Baby Globe",
     "The gostak",
+    "RimWorld players",
 ]
 
 # Note: The case of these will not be changed.
@@ -986,4 +987,6 @@ TREATS = [
     "a birthday cake",
     '{"alt_wording": "True", "text": "can distim the doshes"}',
     '{"alt_wording": "True", "text": "can get banned from the local hackerspace"}',
+    "the inexorable passage of time",
+    "visibility",
 ]
