@@ -993,4 +993,8 @@ TREATS = [
     "a little ice cream",
     "a broadcasting permit",
     "_____",
+    "a WALLOPS message",
+    "a typing notification",
+    "Vorzugspunkte",
+    "a geocache",
 ]
