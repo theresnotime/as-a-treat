@@ -999,4 +999,5 @@ TREATS = [
     "a geocache",
     '{"alt_wording": "True", "text": "can get doxed"}',
     '{"alt_wording": "True", "text": "can get reported to the authorities"}',
+    "their keyboard taken away",
 ]
