@@ -13,3 +13,14 @@ def test_unique():
             continue
         assert line not in seen
         seen.add(line)
+
+
+def test_no_double_words():
+    from arrays import FOLX, TREATS
+
+    for folx in FOLX:
+        assert not folx.endswith(" can")
+        assert not folx.endswith(" can have")
+    for treat in TREATS:
+        assert not treat.startswith("have ")
+        assert not treat.startswith("can have ")
