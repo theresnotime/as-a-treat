@@ -278,6 +278,8 @@ FOLX = [
     "The gostak",
     "RimWorld players",
     "Chloë",
+    "Eridians",
+    "Viltrumites",
 ]
 
 # Note: The case of these will not be changed.
@@ -1000,4 +1002,9 @@ TREATS = [
     '{"alt_wording": "True", "text": "can get doxed"}',
     '{"alt_wording": "True", "text": "can get reported to the authorities"}',
     "their keyboard taken away",
+    "a Petrova line",
+    "two million kilograms of Astrophage",
+    "a Xenonite model of the solar system",
+    "nitrogen-resistant Taumoeba",
+    "an Eridian watching them sleep",
 ]
