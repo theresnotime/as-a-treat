@@ -9,3 +9,9 @@ used_*
 *.log
 most_interacted.json
 statuses_cache.*
+/.idea/.gitignore
+/.noai
+/.idea/as-a-treat.iml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
