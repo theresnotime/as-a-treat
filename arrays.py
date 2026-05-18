@@ -1009,4 +1009,6 @@ TREATS = [
     "an Eridian watching them sleep",
     "precedented times",
     '{"alt_wording": "True", "text": "can be silly"}',
+    "attention",
+    "interaction",
 ]
