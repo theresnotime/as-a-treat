@@ -1012,4 +1012,11 @@ TREATS = [
     "attention",
     "interaction",
     '{"alt_wording": "True", "text": "can go in the square hole"}',
+    "a new funny number",
+    "an off-by-one error",
+    "unforeseen circumstances",
+    "foreseen circumstances",
+    "Aurora Borealis, at this time of year, at this time of day, in this part of the country, localised entirely within their kitchen",
+    "steamed hams",
+    "steamed clams",
 ]
