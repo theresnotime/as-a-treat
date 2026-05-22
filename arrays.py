@@ -1011,4 +1011,5 @@ TREATS = [
     '{"alt_wording": "True", "text": "can be silly"}',
     "attention",
     "interaction",
+    '{"alt_wording": "True", "text": "can go in the square hole"}',
 ]
