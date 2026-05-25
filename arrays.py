@@ -1012,4 +1012,6 @@ TREATS = [
     "attention",
     "interaction",
     '{"alt_wording": "True", "text": "can go in the square hole"}',
+    '{"alt_wording": "True", "text": "can be incredibly warm"}',
+    '{"alt_wording": "True", "text": "can be incredibly cold"}',
 ]
