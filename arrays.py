@@ -280,6 +280,8 @@ FOLX = [
     "Chloë",
     "Eridians",
     "Viltrumites",
+    "Backstage managers",
+    "Backstage damagers",
 ]
 
 # Note: The case of these will not be changed.
@@ -1021,4 +1023,22 @@ TREATS = [
     "steamed clams",
     '{"alt_wording": "True", "text": "can be incredibly warm"}',
     '{"alt_wording": "True", "text": "can be incredibly cold"}',
+    "an overalls patch",
+    "a card printer",
+    "a SwissPass",
+    "a baby globe plushie",
+    "post-quantum cryptography",
+    "nftables",
+    '{"alt_wording": "True", "text": "can be simulcasted"}',
+    "scheduled engineering works",
+    "vegan IP addresses",
+    "a finger server",
+    "good news",
+    "an incident that will be reported",
+    "a perfectly reasonable amount of infrastructure",
+    "Train+",
+    "Train Plus",
+    "Train Pro Max",
+    "a Siemens Vectron multi-system electric locomotive",
+    "pleading emoji",
 ]
