@@ -282,6 +282,7 @@ FOLX = [
     "Viltrumites",
     "Backstage managers",
     "Backstage damagers",
+    "Raine",
 ]
 
 # Note: The case of these will not be changed.
