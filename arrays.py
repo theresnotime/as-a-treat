@@ -1042,4 +1042,9 @@ TREATS = [
     "Train Pro Max",
     "a Siemens Vectron multi-system electric locomotive",
     "pleading emoji",
+    "multiball",
+    "a ball saver",
+    "an extra ball",
+    '{"alt_wording": "True", "text": "can be tilted"}',
+    "a dot-matrix backbox",
 ]
