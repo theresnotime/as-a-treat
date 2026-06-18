@@ -46,7 +46,7 @@ FOLX = [
     "Dolls",
     "labyrinth.zone users",
     "fox.nexus users",
-    "honeycomb.engineer users",
+    "beehive.city users",
     "Yassie",
     "Yaseenists",
     "Folx that use they/them",
@@ -283,6 +283,8 @@ FOLX = [
     "Backstage managers",
     "Backstage damagers",
     "Raine",
+    "Chippy thieves",
+    "Users in the sudoers file",
 ]
 
 # Note: The case of these will not be changed.
@@ -1048,4 +1050,5 @@ TREATS = [
     '{"alt_wording": "True", "text": "can be tilted"}',
     "a dot-matrix backbox",
     "complex microarchitectural conditions",
+    "one (1) chippy",
 ]
