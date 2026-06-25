@@ -285,6 +285,7 @@ FOLX = [
     "Raine",
     "Chippy thieves",
     "Users in the sudoers file",
+    "The goose",
 ]
 
 # Note: The case of these will not be changed.
@@ -1062,4 +1063,8 @@ TREATS = [
     "a massive yacht",
     "Professor Death's Giant Death Ray",
     "squeezy cheesy peas",
+    "value 0",
+    "value 71",
+    '{"alt_wording": "True", "text": "can be valued"}',
+    '{"alt_wording": "True", "text": "can not be valued"}',
 ]
