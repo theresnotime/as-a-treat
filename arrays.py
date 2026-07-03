@@ -286,6 +286,7 @@ FOLX = [
     "Chippy thieves",
     "Users in the sudoers file",
     "The goose",
+    "Moopsy",
 ]
 
 # Note: The case of these will not be changed.
@@ -1067,4 +1068,7 @@ TREATS = [
     "value 71",
     '{"alt_wording": "True", "text": "can be valued"}',
     '{"alt_wording": "True", "text": "can not be valued"}',
+    "Moopsy",
+    '{"alt_wording": "True", "text": "can Moopsy"}',
+    '{"alt_wording": "True", "text": "can drink your bones"}',
 ]
