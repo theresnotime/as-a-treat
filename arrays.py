@@ -1071,4 +1071,11 @@ TREATS = [
     "Moopsy",
     '{"alt_wording": "True", "text": "can Moopsy"}',
     '{"alt_wording": "True", "text": "can drink your bones"}',
+    "a new GPU",
+    "FSR Upscaling",
+    "DLSS",
+    "an extra frame per second",
+    "a leak in the water cooling system",
+    "fans installed backwards",
+    "one more PCIe lane, bro",
 ]
