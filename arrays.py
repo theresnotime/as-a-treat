@@ -287,6 +287,7 @@ FOLX = [
     "Users in the sudoers file",
     "The goose",
     "Moopsy",
+    "Riley",
 ]
 
 # Note: The case of these will not be changed.
