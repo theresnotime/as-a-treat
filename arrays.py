@@ -1079,4 +1079,5 @@ TREATS = [
     "a leak in the water cooling system",
     "fans installed backwards",
     "one more PCIe lane, bro",
+    '{"alt_wording": "True", "text": "some patience"}',
 ]
