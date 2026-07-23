@@ -288,6 +288,7 @@ FOLX = [
     "The goose",
     "Moopsy",
     "Riley",
+    "Sisyphus",
 ]
 
 # Note: The case of these will not be changed.
@@ -1080,4 +1081,6 @@ TREATS = [
     "fans installed backwards",
     "one more PCIe lane, bro",
     '{"alt_wording": "True", "text": "some patience"}',
+    '{"alt_wording": "True", "text": "can imagine Sisyphus happy"}',
+    "a rock that must be pushed up a mountain",
 ]
