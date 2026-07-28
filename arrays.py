@@ -289,6 +289,8 @@ FOLX = [
     "Moopsy",
     "Riley",
     "Sisyphus",
+    "We&",
+    "Simor Haskiner",
 ]
 
 # Note: The case of these will not be changed.
@@ -1083,4 +1085,6 @@ TREATS = [
     '{"alt_wording": "True", "text": "some patience"}',
     '{"alt_wording": "True", "text": "can imagine Sisyphus happy"}',
     "a rock that must be pushed up a mountain",
+    "a few more headmates",
+    "the Megillat Cham-Ed",
 ]
