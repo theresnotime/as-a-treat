@@ -364,21 +364,33 @@ if __name__ == "__main__":
     folx = random.choice(available_folx)
     treat = random.choice(available_treats)
 
-    # Handle 'alternate wording' treats
+    # fetch the chosen treat's line number for logging errors
+    with open("arrays.py") as treats_file:
+        for line_number, line in enumerate(treats_file, 1):
+            if treat in line:
+                where_treat = line_number
+
+    # default values for standard (non-json) treats
+    # they'll get updated below if required
+    alt_wording = False
+    treat_text = treat
+
+    # Handle cases of json treats
+    # if the json part isn't properly terminated, error out and exit
     if treat.startswith("{") and treat.endswith("}"):
-        if json.loads(treat).get("alt_wording") == "True" and "text" in json.loads(
-            treat
-        ):
-            alt_wording = True
+        # if text attribute exists, load its content and then check for alternate wording
+        # otherwise error out and exit
+        if "text" in json.loads(treat):
             treat_text = json.loads(treat)["text"]
-            log.debug('Using alternate wording for treat: "%s"', treat_text)
+            if json.loads(treat).get("alt_wording") == "True":
+                alt_wording = True
+                log.debug('Using alternate wording for treat: "%s"', treat_text)
         else:
-            # Something went wrong with the formatting
-            log.error("Treat formatting error - invalid JSON: %s", treat)
+            log.error('Invalid JSON error - missing "text" attribute at arrays.py:%d. Treat in question: "%s"', where_treat, treat)
             sys.exit(1)
-    else:
-        alt_wording = False
-        treat_text = treat
+    elif treat.startswith("{") and not treat.endswith("}"):
+        log.error('Malformed JSON error - unterminated JSON string at arrays.py:%d. Treat in question: "%s"', where_treat, treat)
+        sys.exit(1)
 
     log.debug('Picked folx "%s" and treat "%s"', folx, treat_text)
 
