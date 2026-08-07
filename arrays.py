@@ -1090,5 +1090,5 @@ TREATS = [
     "a few more headmates",
     "the Megillat Cham-Ed",
     '{"alt_wording": "True", "text": "can be exploded"}',
-    'their wish granted',
+    "their wish granted",
 ]
