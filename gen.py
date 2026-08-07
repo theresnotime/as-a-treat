@@ -386,10 +386,18 @@ if __name__ == "__main__":
                 alt_wording = True
                 log.debug('Using alternate wording for treat: "%s"', treat_text)
         else:
-            log.error('Invalid JSON error - missing "text" attribute at arrays.py:%d. Treat in question: "%s"', where_treat, treat)
+            log.error(
+                'Invalid JSON error - missing "text" attribute at arrays.py:%d. Treat in question: "%s"',
+                where_treat,
+                treat,
+            )
             sys.exit(1)
     elif treat.startswith("{") and not treat.endswith("}"):
-        log.error('Malformed JSON error - unterminated JSON string at arrays.py:%d. Treat in question: "%s"', where_treat, treat)
+        log.error(
+            'Malformed JSON error - unterminated JSON string at arrays.py:%d. Treat in question: "%s"',
+            where_treat,
+            treat,
+        )
         sys.exit(1)
 
     log.debug('Picked folx "%s" and treat "%s"', folx, treat_text)
