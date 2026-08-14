@@ -1090,4 +1090,5 @@ TREATS = [
     "a few more headmates",
     "the Megillat Cham-Ed",
     "an unexpected day off work",
+    "a Lidl bit of air conditioning",
 ]
