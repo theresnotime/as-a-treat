@@ -1093,7 +1093,7 @@ TREATS = [
     "their wish granted",
     "an unexpected day off work",
     "a Lidl bit of air conditioning",
-    "a photo of a train"
+    "a photo of a train",
     '{"alt_wording": "True", "text": "can take a photo of a train"}',
     "a squopped wink",
     "a semi-flexible squidger",
