@@ -292,6 +292,7 @@ FOLX = [
     "The two wolves inside you",
     "We&",
     "Simor Haskiner",
+    "This bot's subscribers",
 ]
 
 # Note: The case of these will not be changed.
@@ -1098,4 +1099,7 @@ TREATS = [
     "a squopped wink",
     "a semi-flexible squidger",
     "the latest issue of Winking World",
+    "a suitably-detailed incident report",
+    "a suitably passive-aggressive incident report",
+    "a full refund as a consequence of the SLO violation",
 ]
