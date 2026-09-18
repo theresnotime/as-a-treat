@@ -341,6 +341,7 @@ TREATS = [
     "belly rubs",
     "working code",
     ":3",
+    ":4",
     "a biiiiig stretch",
     "a cute frog",
     "a neofox",
