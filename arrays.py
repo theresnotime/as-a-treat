@@ -1103,4 +1103,8 @@ TREATS = [
     "a suitably-detailed incident report",
     "a suitably passive-aggressive incident report",
     "a full refund as a consequence of the SLO violation",
+    "a 110% gradient",
+    "a cable railway pretending to be a funicular",
+    "a funicular replacement bus service",
+    "a malformed As a Treat post",
 ]
