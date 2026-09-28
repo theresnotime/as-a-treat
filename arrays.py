@@ -293,6 +293,8 @@ FOLX = [
     "We&",
     "Simor Haskiner",
     "This bot's subscribers",
+    "Pirates",
+    "One-eyed pirates",
 ]
 
 # Note: The case of these will not be changed.
@@ -1107,4 +1109,8 @@ TREATS = [
     "a cable railway pretending to be a funicular",
     "a funicular replacement bus service",
     "a malformed As a Treat post",
+    "a map with one or two X's marked on it",
+    "a map with an 'X' marked in blood .-)",
+    "a cat-themed Jolly Roger",
+    "a one-eyed Jolly Roger",
 ]
