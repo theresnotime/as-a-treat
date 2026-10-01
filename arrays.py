@@ -295,6 +295,7 @@ FOLX = [
     "This bot's subscribers",
     "Pirates",
     "One-eyed pirates",
+    "Fimsh",
 ]
 
 # Note: The case of these will not be changed.
@@ -1113,4 +1114,9 @@ TREATS = [
     "a map with an 'X' marked in blood .-)",
     "a cat-themed Jolly Roger",
     "a one-eyed Jolly Roger",
+    "an infodumpling",
+    "an icebreaker",
+    "a commission",
+    '{"alt_wording:" "True", "text": "can be bothered"}',
+    "a day full of meetings",
 ]
