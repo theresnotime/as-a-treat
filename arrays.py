@@ -607,6 +607,7 @@ TREATS = [
     "me",
     "a cute blushy face",
     "an egg",
+    '{"alt_wording": "True", "text": "can be an egg"}',
     "a wink",
     "some new plants",
     "a shiny thing",
