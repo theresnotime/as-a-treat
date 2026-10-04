@@ -1119,4 +1119,5 @@ TREATS = [
     "a commission",
     '{"alt_wording:" "True", "text": "can be bothered"}',
     "a day full of meetings",
+    "a laminator",
 ]
