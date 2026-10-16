@@ -296,6 +296,12 @@ FOLX = [
     "Pirates",
     "One-eyed pirates",
     "Fimsh",
+    "Telematics stakeholders",
+    "Infrastructure managers",
+    "Railway undertakings",
+    "Entities in charge of maintenance",
+    "Land register gamblers",
+    "The The Rail Delivery Group",
 ]
 
 # Note: The case of these will not be changed.
@@ -1122,4 +1128,20 @@ TREATS = [
     "a day full of meetings",
     "a laminator",
     "a SBB CFF FFS asset-tagged chair at home",
+    "a laptop shipping box",
+    "a pallet of laptop shipping boxes",
+    "Commission Implementing Regulation (EU) 2026/253",
+    "a single ticket",
+    "the conclusion of two or more transport contracts for a journey purchased in a single commercial transaction from a railway undertaking, ticket vendor or tour operator",
+    "a through ticket",
+    "a single transport contract",
+    "a single contract of carriage",
+    "a single commercial transaction",
+    "an exclusion of an exclusion",
+    "open data",
+    "opened data",
+    "a crowbar",
+    "a relative scenicness formula",
+    "pizza made by the Spanish",
+    "hashtag CrossBorderRail",
 ]
