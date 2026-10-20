@@ -1144,4 +1144,6 @@ TREATS = [
     "a relative scenicness formula",
     "pizza made by the Spanish",
     "hashtag CrossBorderRail",
+    "Treat Intelligence",
+    "4",
 ]
