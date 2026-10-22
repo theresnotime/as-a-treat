@@ -1,2 +1,3 @@
 Mastodon.py==2.1.2
 tox==4.44.0
+pytest==9.0.2
