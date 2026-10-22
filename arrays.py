@@ -1124,7 +1124,7 @@ TREATS = [
     "an infodumpling",
     "an icebreaker",
     "a commission",
-    '{"alt_wording:" "True", "text": "can be bothered"}',
+    '{"alt_wording": "True", "text": "can be bothered"}',
     "a day full of meetings",
     "a laminator",
     "a SBB CFF FFS asset-tagged chair at home",
