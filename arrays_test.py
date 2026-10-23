@@ -24,3 +24,23 @@ def test_no_double_words():
     for treat in TREATS:
         assert not treat.startswith("have ")
         assert not treat.startswith("can have ")
+
+
+def test_alt_wording_syntax():
+    import json
+    from arrays import TREATS
+    from json import JSONDecodeError
+    from pytest import fail
+
+    json_treats = [
+        treat for treat in TREATS if treat.startswith("{") and treat.endswith("}")
+    ]
+    for treat in json_treats:
+        try:
+            parsed = json.loads(treat)
+            if parsed.get("alt_wording") != "True":
+                fail('treat "' + treat + '" does not set "alt_wording" to "True"')
+            if parsed.get("text") is None:
+                fail('treat "' + treat + '" does not have a "text" attribute')
+        except JSONDecodeError:
+            fail('treat "' + treat + '" is not a valid json string')
