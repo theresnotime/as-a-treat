@@ -302,6 +302,9 @@ FOLX = [
     "Entities in charge of maintenance",
     "Land register gamblers",
     "The The Rail Delivery Group",
+    "Slimes",
+    "Slime girls",
+    "Slime boys",
 ]
 
 # Note: The case of these will not be changed.
