@@ -1149,4 +1149,8 @@ TREATS = [
     "hashtag CrossBorderRail",
     "Treat Intelligence",
     "4",
+    '{"alt_wording": "True", "text": "can interpret everything as a date"}',
+    '{"alt_wording": "True", "text": "can be Turing complete"}',
+    "01-Jan",
+    "1970-01-01T00:00:00.000+00:00",
 ]
