@@ -1153,4 +1153,7 @@ TREATS = [
     '{"alt_wording": "True", "text": "can be Turing complete"}',
     "01-Jan",
     "1970-01-01T00:00:00.000+00:00",
+    '{"alt_wording": "True", "text": "can be added to the group chat"}',
+    '{"alt_wording": "True", "text": "can be removed from the group chat"}',
+    "254 unread notifications",
 ]
