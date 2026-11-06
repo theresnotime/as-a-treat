@@ -231,7 +231,7 @@ FOLX = [
     "Bouba",
     "Kiki",
     "Monsterdon",
-    "As a Treat bot contributors",
+    "Things As a Treat bot contributors",
     "GPN attendees",
     "OpenStack Swift administrators",
     "catgirls of the .[center|cloud|global] variety",
