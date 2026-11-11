@@ -1156,4 +1156,9 @@ TREATS = [
     '{"alt_wording": "True", "text": "can be added to the group chat"}',
     '{"alt_wording": "True", "text": "can be removed from the group chat"}',
     "254 unread notifications",
+    "the on-ride photo",
+    "a long wait",
+    "a walk-on",
+    "a tiny plushie sitting on their shoulder",
+    "an overpriced lukewarm hot dog",
 ]
