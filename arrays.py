@@ -1163,4 +1163,5 @@ TREATS = [
     "a tiny plushie sitting on their shoulder",
     "an overpriced lukewarm hot dog",
     "aurora",
+    '{"alt_wording": "True", "text": "can have a cuddle puddle"}',
 ]
