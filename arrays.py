@@ -305,6 +305,7 @@ FOLX = [
     "Slimes",
     "Slime girls",
     "Slime boys",
+    "Fae",
 ]
 
 # Note: The case of these will not be changed.
