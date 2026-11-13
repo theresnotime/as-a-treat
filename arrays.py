@@ -1162,4 +1162,5 @@ TREATS = [
     "a walk-on",
     "a tiny plushie sitting on their shoulder",
     "an overpriced lukewarm hot dog",
+    "aurora",
 ]
