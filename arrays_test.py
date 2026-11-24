@@ -46,5 +46,8 @@ def test_alt_wording_syntax():
 
             if text is None:
                 fail('treat "' + treat + '" does not have a "text" attribute')
+
+            if text.startswith("can have "):
+                fail('treat "' + treat + '" does not need to be an alt_wording treat')
         except JSONDecodeError:
             fail('treat "' + treat + '" is not a valid json string')
