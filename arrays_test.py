@@ -38,9 +38,13 @@ def test_alt_wording_syntax():
     for treat in json_treats:
         try:
             parsed = json.loads(treat)
-            if parsed.get("alt_wording") != "True":
+            alt_wording = parsed.get("alt_wording")
+            text = parsed.get("text")
+
+            if alt_wording != "True":
                 fail('treat "' + treat + '" does not set "alt_wording" to "True"')
-            if parsed.get("text") is None:
+
+            if text is None:
                 fail('treat "' + treat + '" does not have a "text" attribute')
         except JSONDecodeError:
             fail('treat "' + treat + '" is not a valid json string')
