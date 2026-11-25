@@ -1163,7 +1163,7 @@ TREATS = [
     "a tiny plushie sitting on their shoulder",
     "an overpriced lukewarm hot dog",
     "aurora",
-    '{"alt_wording": "True", "text": "can have a cuddle puddle"}',
+    "a cuddle puddle",
     "a bad omen",
     "an uppy-downy desk",
     "a crafternoon",
@@ -1179,4 +1179,5 @@ TREATS = [
     "a dispatch email when the label is generated",
     "a Black Friday sale",
     "dino DNA",
+    "pizza for breakfast",
 ]
